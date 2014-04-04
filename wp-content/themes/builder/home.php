@@ -53,5 +53,26 @@ homepage of your website.
 		<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
 	</div>
 </section>
+<section id="info">
+<div class="container">
+	<p>~Treat Yourself~
+Choose from a multitude of classes that guarantee a total mind, body and soul transformation. Our classes will leave you feeling toned, energized and empowered.
+</p>
+</div>
+
+</section>
+<section id="services">
+	<div class="container">
+	Yoga         Mat Pilates         TRX          	Tae Bo® Fitness       Yoga Barre  Kids and Teens 
+Pictures (Small blocks with link/click to class schedule)
+</div>
+
+	
+</section>
+
+<section id="social">
+	
+</section>
+
 
 <?php get_footer(); ?>

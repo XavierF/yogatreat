@@ -237,6 +237,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/logo-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8257,
+		"inputAbbreviatedPath": "\/library\/images\/logo-2x.png",
+		"outputAbbreviatedPath": "\/library\/images\/logo-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/win8-tile-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -259,13 +270,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/yoga2.JPG": {
+	"\/library\/images\/yoga2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 87360,
-		"inputAbbreviatedPath": "\/library\/images\/yoga2.JPG",
-		"outputAbbreviatedPath": "\/library\/images\/yoga2.JPG",
+		"inputAbbreviatedPath": "\/library\/images\/yoga2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/yoga2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -281,13 +292,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/yoga4.JPG": {
+	"\/library\/images\/yoga4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 41261,
-		"inputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
-		"outputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
+		"inputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

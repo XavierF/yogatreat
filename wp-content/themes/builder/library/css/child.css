@@ -1,1 +1,5 @@
-body{padding-top:51px}
+body {
+  padding-top: 51px; }
+
+.navbar-inverse {
+  background: rgba(0, 0, 0, 0.35); }
