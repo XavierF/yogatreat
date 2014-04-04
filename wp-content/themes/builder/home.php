@@ -13,7 +13,7 @@ homepage of your website.
 <section id="hero">
 	<div id="myCarousel" class="carousel slide">
 		<div class="carousel-inner">
-			<div class="item">
+			<div class="item active">
 				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga1.jpg" alt="">
 				<div class="carousel-caption">
 					<h4>First Thumbnail label</h4>
