@@ -63,8 +63,8 @@ Choose from a multitude of classes that guarantee a total mind, body and soul tr
 </section>
 <section id="services">
 	<div class="container">
-	Yoga         Mat Pilates         TRX          	Tae Bo® Fitness       Yoga Barre  Kids and Teens 
-Pictures (Small blocks with link/click to class schedule)
+	<p>Yoga</p>         <p>Mat Pilates</p></p>         <p>TRX</p>          	<p>Tae Bo® Fitness</p>       <p>Yoga Barre</p>  <p>Kids and Teens</p> 
+<p>Pictures (Small blocks with link/click to class schedule)</p>
 </div>
 
 	
