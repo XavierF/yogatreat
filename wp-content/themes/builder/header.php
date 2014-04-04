@@ -36,7 +36,7 @@
 
 			<!-- drop Google Analytics Here -->
 			<!-- end analytics -->
-
+			<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/child.css">
 		</head>
 
 		<body <?php body_class(); ?>>
