@@ -14,41 +14,17 @@ homepage of your website.
 	<div id="myCarousel" class="carousel slide">
 		<div class="carousel-inner">
 			<div class="item active">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga1.jpg" alt="">
-				<div class="carousel-caption">
+				<!-- <div class="carousel-caption">
 					<h4>First Thumbnail label</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-				</div>
+				</div> -->
 			</div>
 			<div class="item">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga2.jpg" alt="">
 				<div class="carousel-caption">
 					<h4>First Thumbnail label</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga3.jpg" alt="">
-				<div class="carousel-caption">
-					<h4>First Thumbnail label</h4>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-				</div>
-			</div>
-			<div class="item">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga4.jpg" alt="">
-				<div class="carousel-caption">
-					<h4>First Thumbnail label</h4>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-				</div>
-			</div>
-			<div class="item">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga5.jpg" alt="">
-				<div class="carousel-caption">
-					<h4>First Thumbnail label</h4>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-				</div>
-			</div>
-		</div>
 		<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
 		<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
 	</div>
