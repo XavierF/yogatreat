@@ -10,7 +10,7 @@ homepage of your website.
 ?>
 <?php get_header(); ?>
 
-<section id="hero">
+<section id="hero" role="roll with it">
 	<div id="myCarousel" class="carousel slide">
 		<div class="carousel-inner">
 			<div class="item active">
@@ -54,23 +54,38 @@ homepage of your website.
 	</div>
 </section>
 <section id="info">
-<div class="container">
+<div class="container content">
 	<p>~Treat Yourself~
 Choose from a multitude of classes that guarantee a total mind, body and soul transformation. Our classes will leave you feeling toned, energized and empowered.
 </p>
 </div>
-
 </section>
+
 <section id="services">
 	<div class="container">
-	<p>Yoga</p>         <p>Mat Pilates</p></p>         <p>TRX</p>          	<p>Tae Bo® Fitness</p>       <p>Yoga Barre</p>  <p>Kids and Teens</p> 
-<p>Pictures (Small blocks with link/click to class schedule)</p>
-</div>
+		<div class="row content">
+			<p>Pictures (Small blocks with link/click to class schedule)</p>
+			<div class="col-md-4"><p>Yoga</p></div>
+			<div class="col-md-4"><p>Mat Pilates</p></div>
+			<div class="col-md-4"><p>TRX</p></div>
+		</div><!-- .row -->
+		<div class="row content">
+	      <div class="col-md-4"><p>Tae Bo® Fitness</p></div>
+	      <div class="col-md-4"><p>Yoga Barre</p></div>  
+	      <div class="col-md-4"><p>Kids and Teens</p></div> 
+
+		</div><!-- .row -->
+	</div><!-- .container -->
 
 	
 </section>
 
 <section id="social">
+	<div class="container content">
+		<div class="row">
+			
+		</div><!-- .row -->
+	</div><!-- .container -->
 	
 </section>
 
