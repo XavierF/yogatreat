@@ -148,6 +148,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/library\/css\/child.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/css\/child.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/library\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -184,6 +193,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/library\/images\/Anya.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.43233e+06,
+		"inputAbbreviatedPath": "\/library\/images\/Anya.png",
+		"outputAbbreviatedPath": "\/library\/images\/Anya.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/apple-icon-touch.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -217,6 +237,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/Kids.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 452297,
+		"inputAbbreviatedPath": "\/library\/images\/Kids.png",
+		"outputAbbreviatedPath": "\/library\/images\/Kids.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/login-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -235,6 +266,28 @@
 		"initialSize": 8257,
 		"inputAbbreviatedPath": "\/library\/images\/logo-2x.png",
 		"outputAbbreviatedPath": "\/library\/images\/logo-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/matPilates.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 249233,
+		"inputAbbreviatedPath": "\/library\/images\/matPilates.png",
+		"outputAbbreviatedPath": "\/library\/images\/matPilates.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/taeboFitness.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 440971,
+		"inputAbbreviatedPath": "\/library\/images\/taeboFitness.png",
+		"outputAbbreviatedPath": "\/library\/images\/taeboFitness.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -323,6 +376,17 @@
 		"initialSize": 93654,
 		"inputAbbreviatedPath": "\/library\/images\/yoga7.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/yoga7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/yogaBarre.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459363,
+		"inputAbbreviatedPath": "\/library\/images\/yogaBarre.png",
+		"outputAbbreviatedPath": "\/library\/images\/yogaBarre.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1228,6 +1292,22 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/library\/sass\/child.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/sass\/child.sass",
+		"outputAbbreviatedPath": "\/library\/css\/child.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/library\/translation\/translation.php": {
 		"fileType": 8192,

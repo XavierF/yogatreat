@@ -46,14 +46,25 @@ Choose from a multitude of classes that guarantee a total mind, body and soul tr
 	<div class="container">
 		<div class="row content">
 			<p>Pictures (Small blocks with link/click to class schedule)</p>
-			<div class="col-md-4"><p>Yoga</p></div>
-			<div class="col-md-4"><p>Mat Pilates</p></div>
+			<div class="col-md-4"><p>Yoga</p>
+				<div id="yoga"></div>
+			</div>
+			<div class="col-md-4"><p>Mat Pilates</p>
+				<div id="matPilates"></div>
+			</div>
+			
 			<div class="col-md-4"><p>TRX</p></div>
 		</div><!-- .row -->
 		<div class="row content">
-      <div class="col-md-4"><p>Tae Bo® Fitness</p></div>
-      <div class="col-md-4"><p>Yoga Barre</p></div>
-      <div class="col-md-4"><p>Kids and Teens</p></div>
+      <div class="col-md-4"><p>Tae Bo® Fitness</p>
+      	<div id="taeboFitness"></div>
+      </div>
+      <div class="col-md-4"><p>Yoga Barre</p>
+      	<div id="yogaBarre"></div>
+      </div>
+      <div class="col-md-4"><p>Kids and Teens</p>
+				<div id="kids"></div>
+      </div>
 		</div><!-- .row -->
 	</div><!-- .container -->
 </section>
