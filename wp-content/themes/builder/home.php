@@ -11,16 +11,17 @@ homepage of your website.
 <?php get_header(); ?>
 
 <section id="hero" role="roll with it">
+
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="item active slide1">
-				<div class="curtain">&nbsp;</div>
+				
 				<div class="carousel-caption">
 					<h1><?php bloginfo('description'); ?></h1>
 				</div>
 			</div>
 			<div class="item slide2">
-				<div class="curtain">&nbsp;</div>
+				
 				<div class="carousel-caption">
 					<h4>First Thumbnail label</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -42,9 +43,10 @@ Choose from a multitude of classes that guarantee a total mind, body and soul tr
 </p>
 </div>
 </section>
-<section id="services">
+<section id="classes">
 	<div class="container">
 		<div class="row content">
+			<h3>Classes</h3>
 			<p>Pictures (Small blocks with link/click to class schedule)</p>
 			<div class="col-md-4"><p>Yoga</p>
 				<div id="yoga"></div>
