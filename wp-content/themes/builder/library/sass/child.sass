@@ -8,6 +8,8 @@ $white: #FFFFFF
 
 body
 	padding-top: 51px
+
+// HEADER
 .navbar
 	.navbar-brand
 		width: 170px
@@ -37,7 +39,53 @@ body
 .content
 	padding: 10px 0 10px 0
 
-
+// HERO
+#hero
+	.carousel
+		.item
+			height: 480px
+			.curtain
+				display: block
+				position: absolute
+				background: rgba(0, 0, 0, .4)
+				top: 0
+				left: 0
+				right: 0
+				bottom: 0
+				z-index: 2
+			&.slide1
+				background: url('../images/yoga3.jpg') 50% 50% no-repeat
+				background-size: cover
+			&.slide2
+				background: url('../images/yoga4.jpg') 50% 50% no-repeat
+				background-size: cover
+			.carousel-caption
+				left: 0
+				right: 0
+				top: 50%
+				margin-top: -24px
+				padding: 0
+				bottom: auto
+				z-index: 3
+				h1
+					font-size: 48px
+					margin: 0
+					padding: 0
+					text-shadow: none
+		.carousel-control
+			z-index: 4
+		.item
+			left: 0 !important
+			transition: opacity .4s ease-in-out
+		.carousel-control
+			background-image: none
+		.next.left, .prev.right
+			opacity: 1
+			z-index: 1
+		.active.left, .active.right
+			opacity: 0
+			z-index: 2
+	
 // Media Queries
 @media screen and (min-width: 1200px)
 	.container
