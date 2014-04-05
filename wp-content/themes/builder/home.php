@@ -10,69 +10,77 @@ homepage of your website.
 ?>
 <?php get_header(); ?>
 
-<section id="hero">
-	<div id="myCarousel" class="carousel slide">
+<section id="hero" role="roll with it">
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
-			<div class="item active">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga1.jpg" alt="">
+			<div class="item active slide1">
+				
+				<div class="carousel-caption">
+					<h1><?php bloginfo('description'); ?></h1>
+				</div>
+			</div>
+			<div class="item slide2">
+				
 				<div class="carousel-caption">
 					<h4>First Thumbnail label</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 				</div>
 			</div>
-			<div class="item">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga2.jpg" alt="">
-				<div class="carousel-caption">
-					<h4>First Thumbnail label</h4>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-				</div>
-			</div>
-			<div class="item">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga3.jpg" alt="">
-				<div class="carousel-caption">
-					<h4>First Thumbnail label</h4>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-				</div>
-			</div>
-			<div class="item">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga4.jpg" alt="">
-				<div class="carousel-caption">
-					<h4>First Thumbnail label</h4>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-				</div>
-			</div>
-			<div class="item">
-				<img src="<?php bloginfo('template_directory'); ?>/library/images/yoga5.jpg" alt="">
-				<div class="carousel-caption">
-					<h4>First Thumbnail label</h4>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-				</div>
-			</div>
-		</div>
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-		<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+		 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
 	</div>
 </section>
 <section id="info">
-<div class="container">
+<div class="container content">
 	<p>~Treat Yourself~
 Choose from a multitude of classes that guarantee a total mind, body and soul transformation. Our classes will leave you feeling toned, energized and empowered.
 </p>
 </div>
-
 </section>
-<section id="services">
+<section id="classes">
 	<div class="container">
-	<p>Yoga</p>         <p>Mat Pilates</p></p>         <p>TRX</p>          	<p>Tae Bo® Fitness</p>       <p>Yoga Barre</p>  <p>Kids and Teens</p> 
-<p>Pictures (Small blocks with link/click to class schedule)</p>
-</div>
-
-	
+		<div class="row content">
+			<h3>Classes</h3>
+			<p>Pictures (Small blocks with link/click to class schedule)</p>
+			<div class="col-md-4"><p>Yoga</p>
+				<div id="yoga"></div>
+			</div>
+			<div class="col-md-4"><p>Mat Pilates</p>
+				<div id="matPilates"></div>
+			</div>
+			
+			<div class="col-md-4"><p>TRX</p></div>
+		</div><!-- .row -->
+		<div class="row content">
+      <div class="col-md-4"><p>Tae Bo® Fitness</p>
+      	<div id="taeboFitness"></div>
+      </div>
+      <div class="col-md-4"><p>Yoga Barre</p>
+      	<div id="yogaBarre"></div>
+      </div>
+      <div class="col-md-4"><p>Kids and Teens</p>
+				<div id="kids"></div>
+      </div>
+		</div><!-- .row -->
+	</div><!-- .container -->
 </section>
-
 <section id="social">
-	
+	<div class="container content">
+		<div class="row">
+			
+		</div><!-- .row -->
+	</div><!-- .container -->
 </section>
 
-
+<script>
+	jQuery(document).ready(function($){
+		$('.carousel').carousel('pause');
+	});
+</script>
 <?php get_footer(); ?>
