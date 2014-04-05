@@ -46,7 +46,7 @@ Choose from a multitude of classes that guarantee a total mind, body and soul tr
 <section id="classes">
 	<div class="container">
 		<div class="row content">
-			<h3>Classes</h3>
+			<h3>Classes</h3> <a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sView=week&sDate=5/10/2014" target="new">Sign Up Now!</a>
 			<p>Pictures (Small blocks with link/click to class schedule)</p>
 			<div class="col-md-4"><p>Yoga</p>
 				<div id="yoga"></div>
