@@ -1,0 +1,11 @@
+body {
+  padding-top: 51px; }
+
+.navbar-brand {
+  background-size: 227px 48px; }
+
+.navbar-inverse {
+  background: rgba(0, 0, 0, 0.35); }
+
+#services, #social {
+  padding: 10px 0 10px 0; }

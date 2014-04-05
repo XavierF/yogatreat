@@ -44,7 +44,6 @@
 			<div class="wrapper">
 
 				<header class="header" role="banner">
-
 					<nav role="navigation">
 						<div class="navbar navbar-inverse navbar-fixed-top">
 							<div class="container">
@@ -56,7 +55,7 @@
 										<span class="icon-bar"></span>
 									</button>
 
-									<a class="navbar-brand" href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="homepage"><?php bloginfo( 'name' ) ?></a>
+									<a class="navbar-brand" href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="homepage"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo-2x.png"></a>
 
 								</div>
 
