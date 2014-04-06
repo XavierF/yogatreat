@@ -22,27 +22,42 @@ homepage of your website.
 </section>
 <section id="classes">
 	<div class="container">
+	<div class="sub-head">
+<h3 class="sec-hdr-h3">Classes</h3><a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sView=week&sDate=5/10/2014" class="btn btn-primary btn-lg register" role="button" target="new" >Sign Up Now!</a>
+</div>
 		<div class="row content">
-			<h3>Classes</h3> <a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sView=week&sDate=5/10/2014" target="new">Sign Up Now!</a>
-			<p>Pictures (Small blocks with link/click to class schedule)</p>
-			<div class="col-md-4"><p>Yoga</p>
+			
+			
+			<div class="col-md-4">
 				<div id="yoga"></div>
+				<p class="class-title">Yoga</p>
 			</div>
-			<div class="col-md-4"><p>Mat Pilates</p>
+
+			<div class="col-md-4">
 				<div id="matPilates"></div>
+				<p class="class-title">Mat Pilates</p>
 			</div>
 			
-			<div class="col-md-4"><p>TRX</p></div>
+			<div class="col-md-4">
+				<div id="trx"></div>
+				<p class="class-title">TRX</p>
+			</div>
 		</div><!-- .row -->
+
 		<div class="row content">
-      <div class="col-md-4"><p>Tae Bo® Fitness</p>
+      <div class="col-md-4">
       	<div id="taeboFitness"></div>
+      	<p class="class-title">Tae Bo® Fitness</p>
       </div>
-      <div class="col-md-4"><p>Yoga Barre</p>
+
+      <div class="col-md-4">
       	<div id="yogaBarre"></div>
+      	<p class="class-title">Yoga Barre</p>
       </div>
-      <div class="col-md-4"><p>Kids and Teens</p>
+
+      <div class="col-md-4">
 				<div id="kids"></div>
+				<p class="class-title">Kids and Teens</p>
       </div>
 		</div><!-- .row -->
 	</div><!-- .container -->

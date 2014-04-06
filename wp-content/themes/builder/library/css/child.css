@@ -1,5 +1,6 @@
 body {
-  padding-top: 51px; }
+  padding-top: 51px;
+  color: #3f3c3e; }
 
 .navbar .navbar-brand {
   width: 170px;
@@ -42,10 +43,7 @@ h3.tag {
   padding: 0;
   bottom: auto;
   font-weight: light;
-  -webkit-font-smoothing: antialiased; }
-
-.info {
-  text-align: center;
+  -webkit-font-smoothing: antialiased;
   /*.carousel
    * .item
    * 	height: 480px
@@ -91,20 +89,54 @@ h3.tag {
    * 	opacity: 0
    * 	z-index: 2 */ }
 
+.info {
+  text-align: center;
+  color: #974c73;
+  font-size: 1.5em;
+  font-weight: medium;
+  -webkit-font-smoothing: antialiased; }
+
+.sub-head {
+  margin: 10px 0; }
+
+.sec-hdr-h3 {
+  color: #974c73;
+  display: inline-block; }
+
+.register {
+  background-color: #be91a8;
+  border-color: #974c73;
+  margin-left: 50px; }
+  .register:hover {
+    background-color: #974c73; }
+
 .col-md-4 {
   text-align: center; }
 
+.class-title {
+  text-align: center;
+  color: #974c73;
+  font-size: 1.2em;
+  margin: 10px;
+  -webkit-font-smoothing: antialiased; }
+
 #yoga {
-  width: 200px;
-  height: 300px;
-  background: url("../images/yoga2.jpg") center center no-repeat;
-  background-size: 200px 300px; }
+  width: 300px;
+  height: 200px;
+  background: url("../images/yoga.jpg") center center no-repeat;
+  background-size: 300px 200px; }
 
 #matPilates {
   width: 300px;
   height: 221px;
   background: url("../images/matPilates.png") center center no-repeat;
   background-size: 300px 221px; }
+
+#trx {
+  width: 300px;
+  height: 200px;
+  background: url("../images/trx.jpg") center center no-repeat;
+  background-size: 300px 200px; }
 
 #taeboFitness {
   width: 300px;
@@ -120,9 +152,33 @@ h3.tag {
 
 #kids {
   width: 300px;
-  height: 198px;
-  background: url("../images/kids.png") center center no-repeat;
-  background-size: 300px 198px; }
+  height: 480px;
+  background: url("../images/kids2.jpg") center center no-repeat;
+  background-size: 300px 480px; }
+
+footer {
+  background: #b3a9af; }
+
+.source-org {
+  display: inline-block;
+  color: #974c73;
+  margin: 10px 0 0 0; }
+
+.footer-nav {
+  display: inline-block;
+  float: right;
+  margin-bottom: 10px; }
+
+.footer-nav ul {
+  margin: 0; }
+
+.footer-nav li a {
+  padding-left: 15px;
+  color: #974c73;
+  -webkit-font-smoothing: antialiased; }
+  .footer-nav li a:hover {
+    text-decoration: none;
+    color: #683655; }
 
 @media screen and (min-width: 1200px) {
   .container {
