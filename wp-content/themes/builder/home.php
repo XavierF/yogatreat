@@ -11,35 +11,12 @@ homepage of your website.
 <?php get_header(); ?>
 
 <section id="hero" role="roll with it">
-
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="item active slide1">
-				
-				<div class="carousel-caption">
-					<h1><?php bloginfo('description'); ?></h1>
-				</div>
-			</div>
-			<div class="item slide2">
-				
-				<div class="carousel-caption">
-					<h4>First Thumbnail label</h4>
-					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-				</div>
-			</div>
-		 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-	</div>
+	<h3 class="tag"><?php $site_description = get_bloginfo( 'description', 'display' ); echo "$site_description";?></h3> 
 </section>
 <section id="info">
-<div class="container content">
-	<p>~Treat Yourself~
-Choose from a multitude of classes that guarantee a total mind, body and soul transformation. Our classes will leave you feeling toned, energized and empowered.
+<div class="container content info">
+	<p>~Treat Yourself~</p>
+<p>Choose from a multitude of classes that guarantee a total mind, body and soul transformation. Our classes will leave you feeling toned, energized and empowered.
 </p>
 </div>
 </section>
