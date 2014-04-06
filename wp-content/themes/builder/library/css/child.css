@@ -156,6 +156,30 @@ h3.tag {
   background: url("../images/kids2.jpg") center center no-repeat;
   background-size: 300px 480px; }
 
+#content {
+  margin-top: 2.5em; }
+
+.page-title {
+  color: #974c73;
+  margin-top: 0; }
+
+.sidebar {
+  border: 1px solid #be91a8; }
+
+.widgettitle {
+  color: #974c73;
+  margin-left: 38px; }
+
+.widget ul {
+  list-style-type: none; }
+
+.widget li a {
+  color: #974c73;
+  padding: 10px 0;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  display: block; }
+
 footer {
   background: #b3a9af; }
 
