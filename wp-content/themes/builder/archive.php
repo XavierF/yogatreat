@@ -8,13 +8,10 @@
 
 						<div id="main" class="clearfix" role="main">
 
-							<?php if (function_exists("builder_breadcrumb_lists")) { ?>
-							<?php builder_breadcrumb_lists(); ?>
-							<?php } ?>
 
 							<?php if (is_category()) { ?>
 								<h1 class="archive-title h2">
-									<span><?php _e( 'Posts Categorized:', 'bonestheme' ); ?></span> <?php single_cat_title(); ?>
+								<?php single_cat_title(); ?>
 								</h1>
 
 							<?php } elseif (is_tag()) { ?>
@@ -53,10 +50,7 @@
 
 								<header class="article-header">
 
-									<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-									<p class="byline vcard"><?php
-										printf(__( 'Posted <time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span> <span class="amp">&</span> filed under %4$s.', 'bonestheme' ), get_the_time('Y-m-j'), get_the_time(__( 'F jS, Y', 'bonestheme' )), bones_get_the_author_posts_link(), get_the_category_list(', '));
-									?></p>
+									<h4 class="posts-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
 
 								</header> <!-- end article header -->
 

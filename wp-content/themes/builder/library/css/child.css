@@ -163,12 +163,30 @@ h3.tag {
   color: #974c73;
   margin-top: 0; }
 
+.entry-title {
+  color: #974c73;
+  margin-top: 0; }
+
+.archive-title {
+  color: #974c73;
+  margin-top: 0; }
+
+.posts-title a {
+  color: #974c73;
+  margin-top: 0; }
+
 .sidebar {
-  border: 1px solid #be91a8; }
+  border: 1px solid #be91a8;
+  padding-left: 0;
+  padding-right: 0; }
 
 .widgettitle {
-  color: #974c73;
-  margin-left: 38px; }
+  display: block;
+  color: white;
+  background: #974c73;
+  text-align: center;
+  padding: 15px;
+  margin-top: 0; }
 
 .widget ul {
   list-style-type: none; }
