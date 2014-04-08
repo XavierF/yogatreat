@@ -30,34 +30,34 @@ homepage of your website.
 			
 			<div class="col-md-4">
 				<div id="yoga"></div>
-				<p class="class-title">Yoga</p>
+				<div class="class-title-link"><a href="#">Yoga</a></div> 
 			</div>
 
 			<div class="col-md-4">
 				<div id="matPilates"></div>
-				<p class="class-title">Mat Pilates</p>
+				<div class="class-title-link"><a href="#">Mat Pilates</a></div> 
 			</div>
 			
 			<div class="col-md-4">
 				<div id="trx"></div>
-				<p class="class-title">TRX</p>
+				<div class="class-title-link"><a href="#">TRX</a></div> 
 			</div>
 		</div><!-- .row -->
 
 		<div class="row content">
       <div class="col-md-4">
       	<div id="taeboFitness"></div>
-      	<p class="class-title">Tae Bo® Fitness</p>
+      	<div class="class-title-link"><a href="#">Tae Bo® Fitness</a></div> 
       </div>
 
       <div class="col-md-4">
       	<div id="yogaBarre"></div>
-      	<p class="class-title">Yoga Barre</p>
+      	<div class="class-title-link"><a href="#">Yoga Barre</a></div> 
       </div>
 
       <div class="col-md-4">
 				<div id="kids"></div>
-				<p class="class-title">Kids and Teens</p>
+				<div class="class-title-link"> <a href="#">Kids and Teens</a></div> 
       </div>
 		</div><!-- .row -->
 	</div><!-- .container -->

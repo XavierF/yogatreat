@@ -9,6 +9,10 @@ $white: #FFFFFF
 body
 	padding-top: 51px
 	color: $darkGrey
+ 
+a
+	&.link
+		color: $purple
 
 // HEADER
 .navbar
@@ -58,51 +62,6 @@ h3.tag
 	font-weight: light
 	-webkit-font-smoothing: antialiased
 
-	/*.carousel
-		.item
-			height: 480px
-			.curtain
-				display: block
-				position: absolute
-				background: rgba(0, 0, 0, .4)
-				top: 0
-				left: 0
-				right: 0
-				bottom: 0
-				z-index: 2
-			&.slide1
-				background: url('../images/yoga3.jpg') 50% 50% no-repeat
-				background-size: cover
-			&.slide2
-				background: url('../images/yoga4.jpg') 50% 50% no-repeat
-				background-size: cover
-			.carousel-caption
-				left: 0
-				right: 0
-				top: 50%
-				margin-top: -24px
-				padding: 0
-				bottom: auto
-				z-index: 3
-				h1
-					font-size: 48px
-					margin: 0
-					padding: 0
-					text-shadow: none
-		.carousel-control
-			z-index: 4
-		.item
-			left: 0 !important
-			transition: opacity .4s ease-in-out
-		.carousel-control
-			background-image: none
-		.next.left, .prev.right
-			opacity: 1
-			z-index: 1
-		.active.left, .active.right
-			opacity: 0
-			z-index: 2 */
-
 // SECTION HOME PAGE
 section
 	//background:
@@ -121,6 +80,15 @@ section
 	color: $purple
 	display: inline-block
 
+.class-title-link
+	a
+		display: block
+		margin: 0
+		padding: 10px
+		background: $purple
+		color: $white
+		-webkit-font-smoothing: antialiased
+
 //  BUTTON
 
 .register 
@@ -132,6 +100,7 @@ section
 
 .col-md-4
 	text-align: center
+	margin-top: 20px
 
 .class-title
 	text-align: center
@@ -141,62 +110,54 @@ section
 	-webkit-font-smoothing: antialiased
 
 #yoga
-	width: 300px
-	height: 200px
-	background: url('../images/yoga.jpg') center center no-repeat
-	background-size: 300px 200px
+	width: 293px
+	height: 209px
+	background: url('../images/yoga-home.jpg') center center no-repeat
+	background-size: cover
 
 #matPilates
-	width: 300px
-	height: 221px
-	background: url('../images/matPilates.png') center center no-repeat
-	background-size: 300px 221px
+	width: 293px
+	height: 209px
+	background: url('../images/matPilates-home.png') center center no-repeat
+	background-size: cover
 
 #trx
-	width: 300px
-	height: 200px
-	background: url('../images/trx.jpg') center center no-repeat
-	background-size: 300px 200px
+	width: 293px
+	height: 209px
+	background: url('../images/trx-home.jpg') center center no-repeat
+	background-size: cover
 
 #taeboFitness
-	width: 300px
-	height: 223px
-	background: url('../images/taeboFitness.png') center center no-repeat
-	background-size: 300px 223px
+	width: 293px
+	height: 209px
+	background: url('../images/taeboFitness-home.png') center center no-repeat
+	background-size: cover
 
 #yogaBarre
-	width: 300px
+	width: 293px
 	height: 209px
-	background: url('../images/yogaBarre.png') center center no-repeat
-	background-size: 300px 209px
+	background: url('../images/yogaBarre-home.png') center center no-repeat
+	background-size: cover
 
 #kids
-	width: 300px
-	height: 480px
-	background: url('../images/kids2.jpg') center center no-repeat
-	background-size: 300px 480px
+	width: 293px
+	height: 209px
+	background: url('../images/kids-home.png') center center no-repeat
+	background-size: cover
 
 //PAGE CONTENT
 
 #content
 	margin-top: 2.5em
 
-.page-title
-	color: $purple
-	margin-top: 0
-
-.entry-title
-	color: $purple
-	margin-top: 0
-
-.archive-title
-	color: $purple
-	margin-top: 0
-
-.posts-title
+.page-title, .entry-title, .archive-title, .posts-title
 	a
 		color: $purple
 		margin-top: 0
+
+.excerpt-read-more
+	a
+		color: $purple
 
 // SIDEBAR
 

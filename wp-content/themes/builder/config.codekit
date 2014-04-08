@@ -248,6 +248,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/Kids-home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 377639,
+		"inputAbbreviatedPath": "\/library\/images\/Kids-home.png",
+		"outputAbbreviatedPath": "\/library\/images\/Kids-home.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/Kids.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -292,6 +303,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/matPilates-home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31577,
+		"inputAbbreviatedPath": "\/library\/images\/matPilates-home.png",
+		"outputAbbreviatedPath": "\/library\/images\/matPilates-home.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/matPilates.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -303,6 +325,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/taeboFitness-home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327332,
+		"inputAbbreviatedPath": "\/library\/images\/taeboFitness-home.png",
+		"outputAbbreviatedPath": "\/library\/images\/taeboFitness-home.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/taeboFitness.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -310,6 +343,17 @@
 		"initialSize": 440971,
 		"inputAbbreviatedPath": "\/library\/images\/taeboFitness.png",
 		"outputAbbreviatedPath": "\/library\/images\/taeboFitness.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/trx-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459726,
+		"inputAbbreviatedPath": "\/library\/images\/trx-home.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/trx-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -332,6 +376,17 @@
 		"initialSize": 8048,
 		"inputAbbreviatedPath": "\/library\/images\/win8-tile-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/win8-tile-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/yoga-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.92929e+06,
+		"inputAbbreviatedPath": "\/library\/images\/yoga-home.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/yoga-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -380,13 +435,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/yoga4.jpg": {
+	"\/library\/images\/yoga4.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 41261,
-		"inputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
+		"inputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
+		"outputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -420,6 +475,17 @@
 		"initialSize": 93654,
 		"inputAbbreviatedPath": "\/library\/images\/yoga7.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/yoga7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/yogaBarre-home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56119,
+		"inputAbbreviatedPath": "\/library\/images\/yogaBarre-home.png",
+		"outputAbbreviatedPath": "\/library\/images\/yogaBarre-home.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
