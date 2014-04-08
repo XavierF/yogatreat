@@ -24,6 +24,5 @@
 		<div class="un-admin-section un-admin-section-last">
 			<?php $h->link_to(__('View page snapshot'), admin_url('admin-ajax.php?action=un_preview_html&id='. $post->ID),
 				array('target' => '_new'));?>
-				
 		</div>
 <?php endif ?>

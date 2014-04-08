@@ -44,7 +44,7 @@ function usernoisepro_url($path){
 }
 
 function usernoisepro_path($path){
-	return WP_PLUGIN_DIR . '/' . USERNOISEPRO_DIR . $path;
+	return dirname(USERNOISEPRO_MAIN) . $path;
 }
 
 

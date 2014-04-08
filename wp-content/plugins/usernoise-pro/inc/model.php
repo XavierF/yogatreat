@@ -1,5 +1,6 @@
 <?php
 global $unpro_model;
+
 class UNPRO_Model{
 	function __construct(){
 		add_filter('un_feedback_post_type_params', array($this, '_un_feedback_post_type_params'), 11);
@@ -55,6 +56,8 @@ class UNPRO_Model{
 		$email = un_feedback_author_email($id);
 		if ($email)
 			$message .= __('From:', 'usernoise-pro') . " <a href=\"mailto:" . esc_attr($email) ."\">" . esc_html($email) . "</a>\r\n<br><br>";
+		if ($params['title'])
+			$message .= __('Summary:', 'usernoise-pro') . " " . $params['title'] . "\r\n\r\n";
 		$post = get_post($id);
 		$message .= nl2br($post->post_content);
 		return $message;
@@ -84,7 +87,7 @@ class UNPRO_Model{
 			$this->set_feedback_status($id, stripslashes($_REQUEST['un_status']));
 		
 	}
-	
+
 	public function _post_updated($post_ID, $after, $before){
 		$post = get_post($post_ID);
 		if ($after->post_status == 'publish' && $before->post_status != 'publish' && $this->author_email($post_ID)){
@@ -94,8 +97,8 @@ class UNPRO_Model{
 	
 	public function send_feedback_published_notification($post){
 		$message = sprintf(__('Your feedback "%s" has been published by admin. Thanks for your feedback!', 'usernoise-pro') . "\r\n", $post->post_title);
-		$message .= sprintf(__('You can view it at %s', 'usernoise-pro'), get_bloginfo('url'));
-		$subject = sprintf(__('Feedback approved at %s'), get_bloginfo('url'));
+		$message .= sprintf(__('You can view it at %s', 'usernoise-pro'), un_get_option(UNPRO_NOTIFICATIONS_SITE));
+		$subject = sprintf(__('Feedback approved at %s'), un_get_option(UNPRO_NOTIFICATIONS_SITE));
 		@wp_mail($this->author_email($post->ID), $subject, $message);
 	}
 	
@@ -257,10 +260,10 @@ class UNPRO_Model{
 		$statuses = $this->get_statuses();
 		$old_status = get_post_meta($id, '_status', true);
 		$message = sprintf(__('Your feedback "%s" was changed from %s to %s.', 'usernoise-pro'), $post->post_title, strtolower($statuses[$old_status]), strtolower($statuses[$status])) . "\r\n";
-		$message .= sprintf(__('You can view your feedback at %s', 'usernoise-pro'), get_bloginfo('url')) . "\r\n\r\n";
+		$message .= sprintf(__('You can view your feedback at %s', 'usernoise-pro'), un_get_option(UNPRO_NOTIFICATIONS_SITE)) . "\r\n\r\n";
 		$message .= __('Original feedback was:', 'usernoise-pro');
 		$message .= wptexturize($post->post_content);
-		@wp_mail($this->author_email($id), sprintf(__('Feedback status changed at %s', 'usernoise-pro'), get_bloginfo('url')), $message);
+		@wp_mail($this->author_email($id), sprintf(__('Feedback status changed at %s', 'usernoise-pro'), un_get_option(UNPRO_NOTIFICATIONS_SITE)), $message);
 	}
 	
 	public function get_feedback_status($feedback){
@@ -290,11 +293,11 @@ class UNPRO_Model{
 		$comment = get_comment($comment_id);
 		$post = get_post($comment->comment_post_ID);
 		$email = $this->author_email($comment->comment_post_ID);
-		$subject = sprintf( __('[%1$s] Comment: "%2$s"'), get_bloginfo('name'), $post->post_title );
+		$subject = sprintf( __('[%1$s] Comment: "%2$s"'), un_get_option(UNPRO_NOTIFICATIONS_SITE), $post->post_title );
 		$notify_message  = sprintf( __( 'New comment on your feedback "%s" at %s', 'usernoise-pro' ), 
-			$post->post_title, get_bloginfo('url') ) . "\r\n";
+			$post->post_title, un_get_option(UNPRO_NOTIFICATIONS_SITE) ) . "\r\n";
 		/* translators: 1: comment author, 2: author IP, 3: author domain */
-		$notify_message .= sprintf( __('E-mail : %s'), $comment->comment_author_email ) . "\r\n";
+		//$notify_message .= sprintf( __('E-mail : %s'), $comment->comment_author_email ) . "\r\n";
 		$notify_message .= sprintf( __('URL    : %s'), $comment->comment_author_url ) . "\r\n";
 		$notify_message .= __('Comment: ') . "\r\n" . $comment->comment_content . "\r\n\r\n";
 		@wp_mail($email, $subject, $notify_message );

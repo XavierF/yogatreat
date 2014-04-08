@@ -1,7 +1,10 @@
 <h3>
 	<a href="#" id="button-back" style="display: none"><?php _e('Back', 'usernoise-pro')?></a>
-	<i class='<?php echo un_get_type_icon($type_slug) ?>' />&nbsp;
-	<?php _e('Popular ') ?><?php echo un_get_option(UN_FEEDBACK_FORM_SHOW_TYPE) ? $un_model->get_plural_feedback_type_label($type_slug) : __('Popular Feedback', 'usernoise-pro') ?> <small>(<?php echo $query->found_posts ?>)</small>
+	<?php if ($type_slug): ?>
+		<i class='<?php echo un_get_type_icon($type_slug) ?>' />&nbsp;
+		<?php $tag = get_term_by('slug', $type_slug, FEEDBACK_TYPE)?>
+	<?php endif ?>
+	<?php echo sprintf(__('Popular %s', 'usernoise-pro'), un_get_option(UN_FEEDBACK_FORM_SHOW_TYPE) ? un_get_term_meta($tag->term_id, 'plural') : __('Feedback', 'usernoise-pro')) ?> <small>(<?php echo $query->found_posts ?>)</small>
 </h3>
 <?php if ($query->have_posts()): ?>
 	<div id="feedback-list" class="scrollable">

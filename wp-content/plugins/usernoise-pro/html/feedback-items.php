@@ -9,7 +9,7 @@
 			<a class="feedback-title" href="#feedback-<?php the_ID() ?>">
 				<?php the_title() ?>
 			</a>
-			<small><?php echo un_human_time_diff(get_the_time('U')) . " " . _('ago')?></small>
+			<small><?php echo un_human_time_diff(get_the_time('U')) . " " . __('ago', 'usernoise-pro')?></small>
 			<?php $liked = in_array(get_the_ID(), preg_split('/,/', isset($_COOKIE['likes']) ? $_COOKIE['likes'] : '')) ?>
 			<?php $disliked = in_array(get_the_ID(), preg_split('/,/', isset($_COOKIE['dislikes']) ? $_COOKIE['dislikes'] : ''))?>
 			<a class="right likes" href="#like-<?php the_ID() ?>" <?php echo $liked ? 'disabled="disabled"' : ''?>><i class="icon-thumbs-up"></i><span><?php un_the_feedback_likes()?></span></a>

@@ -3,7 +3,7 @@
 Plugin Name: Usernoise Pro
 Plugin URI: mailto: karev.n@gmail.com
 Description: Usernoise Pro is an extension of Usernoise feedback plugin providing additional features.
-Version: 3.7
+Version: 3.7.11
 Author: Nikolay Karev
 Author URI: http://karevn.com
 */
@@ -19,9 +19,11 @@ define('UNPRO_ENABLE_FEEDS', 'unpro_enable_feeds');
 define('UNPRO_FORM_CSS', 'unpro_form_css');
 define('UNPRO_EXTERNAL_CODE', 'unpro_external_code');
 define('UNPRO_DISABLE_BUTTON_ON_LOGIN', 'unpro_disable_button_on_login');
+define('UNPRO_NOTIFICATIONS_SITE', 'unpro_notifications_site');
 
-define('UNPRO_VERSION', "3.7");
-define('REQUIRED_UN_VERSION', '3.7');
+define('UNPRO_VERSION', "3.7.11");
+define('REQUIRED_UN_VERSION', '3.7.9');
+define('USERNOISEPRO_MAIN', __FILE__);
 define('USERNOISEPRO_DIR', dirname(plugin_basename(__FILE__)));
 define('USERNOISEPRO_BASENAME', plugin_basename(__FILE__));
 define('USERNOISEPRO_SLUG', 'usernoise-pro');
@@ -34,30 +36,34 @@ require('inc/updater.php');
 require('inc/template.php');
 require_once('inc/external-code.php');
 require('admin/settings.php');
-if (usernoise_dependency_ok()){
-	add_action('init', 'unpro_load', 0);
-	add_action('plugins_loaded', 'unpro_load_controller');
-}
+add_action('init', 'unpro_load', 0);
+add_action('plugins_loaded', 'unpro_load_controller');
+
 
 function unpro_load_controller(){
-	require_once('inc/model.php');
-	if (((is_admin() && defined('DOING_AJAX')) || !is_admin()) && un_get_option(UN_ENABLED))
-		require('inc/controller.php');
-	if (is_admin()){
-		require('admin/editor-page.php');
-		require('admin/feedback-list.php');
-		require('admin/feedback-types.php');
+	if (usernoise_dependency_ok()){
+		require_once('inc/model.php');
+		if (((is_admin() && defined('DOING_AJAX')) || !is_admin()) && un_get_option(UN_ENABLED))
+			require('inc/controller.php');
+		if (is_admin()){
+			require('admin/editor-page.php');
+			require('admin/feedback-list.php');
+			require('admin/feedback-types.php');
+		}
 	}
 }
 
 function unpro_load(){
-	require_once('inc/model.php');
-	require_once('inc/widgets.php');
-	require_once('inc/migrations.php');
-	require_once('inc/shortcodes.php');
-	if (un_get_option(UN_ENABLED)){
-		require_once('inc/integration.php');
+	if (usernoise_dependency_ok()){
+		require_once('inc/model.php');
+		require_once('inc/widgets.php');
+		require_once('inc/migrations.php');
+		require_once('inc/shortcodes.php');
+		if (un_get_option(UN_ENABLED)){
+			require_once('inc/integration.php');
+		}
 	}
+
 }
 
 function unpro_get_default_options(){

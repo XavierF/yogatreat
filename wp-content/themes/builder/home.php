@@ -11,7 +11,7 @@ homepage of your website.
 <?php get_header(); ?>
 
 <section id="hero" role="roll with it">
-	<h3 class="tag"><?php $site_description = get_bloginfo( 'description', 'display' ); echo "$site_description";?></h3> 
+	<h1 class="tag"><?php $site_description = get_bloginfo( 'description', 'display' ); echo "$site_description";?></h1> 
 </section>
 <section id="info">
 <div class="container content info">
@@ -22,7 +22,7 @@ homepage of your website.
 </section>
 <section id="classes">
 	<div class="container">
-	<div class="sub-head">
+		<div class="sub-head">
 <h3 class="sec-hdr-h3">Classes</h3><a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sView=week&sDate=5/10/2014" class="btn btn-primary btn-lg register" role="button" target="new" >Sign Up Now!</a>
 </div>
 		<div class="row content">

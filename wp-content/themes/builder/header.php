@@ -30,6 +30,9 @@
 
 			<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+			<!-- ROBOTO FONT -->
+			<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+
 			<!-- wordpress head functions -->
 			<?php wp_head(); ?>
 			<!-- end of wordpress head -->
