@@ -61,7 +61,6 @@
 
 								<div class="navbar-collapse collapse navbar-responsive-collapse">
 									<?php bones_main_nav(); ?>
-
 								</div>
 							</div>
 						</div> 
