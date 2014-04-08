@@ -30,34 +30,34 @@ homepage of your website.
 			
 			<div class="col-md-4">
 				<div id="yoga"></div>
-				<div class="class-title-link"><a href="#">Yoga</a></div> 
+				<div class="class-title-link"><a href="/power-yoga-treat-2/">Yoga</a></div> 
 			</div>
 
 			<div class="col-md-4">
 				<div id="matPilates"></div>
-				<div class="class-title-link"><a href="#">Mat Pilates</a></div> 
+				<div class="class-title-link"><a href="/mat-pilates-2/">Mat Pilates</a></div> 
 			</div>
 			
 			<div class="col-md-4">
 				<div id="trx"></div>
-				<div class="class-title-link"><a href="#">TRX</a></div> 
+				<div class="class-title-link"><a href="/yoga-trx-fusion-2/">TRX</a></div> 
 			</div>
 		</div><!-- .row -->
 
 		<div class="row content">
       <div class="col-md-4">
       	<div id="taeboFitness"></div>
-      	<div class="class-title-link"><a href="#">Tae Bo® Fitness</a></div> 
+      	<div class="class-title-link"><a href="/tae-bo-fitness-2/">Tae Bo® Fitness</a></div> 
       </div>
 
       <div class="col-md-4">
       	<div id="yogaBarre"></div>
-      	<div class="class-title-link"><a href="#">Yoga Barre</a></div> 
+      	<div class="class-title-link"><a href="/barre-treat-2/">Yoga Barre</a></div> 
       </div>
 
       <div class="col-md-4">
 				<div id="kids"></div>
-				<div class="class-title-link"> <a href="#">Kids and Teens</a></div> 
+				<div class="class-title-link"> <a href="/total-body-treat-kids-and-teens-2/">Kids and Teens</a></div> 
       </div>
 		</div><!-- .row -->
 	</div><!-- .container -->
