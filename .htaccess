@@ -2,11 +2,19 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
+<<<<<<< HEAD
 RewriteBase /yogatreat/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /yogatreat/index.php [L]
+=======
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+>>>>>>> bbb857fdb1e216ed1c7eefdb9706e7548310d7ad
 </IfModule>
 
 # END WordPress

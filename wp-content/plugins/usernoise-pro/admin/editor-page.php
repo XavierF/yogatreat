@@ -58,8 +58,11 @@ class UNPRO_Admin_Editor_Page{
 		$likes_count = get_post_meta($post->ID, '_likes', true);
 		echo $likes_count ? $likes_count : 0 ;
 		echo "</strong></div>";
-		if (un_feedback_has_author($post->ID)){
+		if (un_feedback_has_author($post->ID) || un_feedback_has_name($post->ID)){
+			
 			echo '<div class="un-admin-section un-admin-section-last"><strong>' . __('Author') . ': ';
+			if (un_feedback_has_name($post->ID))
+				echo esc_html(get_post_meta($post->ID, '_name', true) . ", ");
 			un_feedback_author_link($post->ID);
 			echo "</strong></div>";
 		}

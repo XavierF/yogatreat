@@ -138,7 +138,7 @@ class UNPRO_Controller{
 		$type_slug = isset($_REQUEST['type']) ? $_REQUEST['type'] : null;
 		$offset = (int)$_REQUEST['offset'];
 		$params = array('post_type' => FEEDBACK, 'post_status' => 'publish', 
-			'offset' => $offset, 'numberposts' => 10, 
+			'offset' => $offset, 'posts_per_page' => 10, 
 			'feedback_type_slug' => $type_slug,
 			'orderby' => 'likes', 'order' => 'DESC');
 		ob_start();
@@ -184,6 +184,8 @@ class UNPRO_Controller{
 		setcookie('un_email', $comment['comment_author_email']);
 		setcookie('un_name', $comment['comment_author']);
 		add_action('comment_post', array($this, '_comment_post'), 10, 2);
+		// A hack for WPML.
+		$_POST['comment_post_ID'] = $comment['comment_post_ID'];
 		$comment_id = wp_new_comment( $comment );
 		remove_action('comment_post', array($this, '_comment_post'), 10, 2);
 		global $comment;
@@ -206,14 +208,14 @@ class UNPRO_Controller{
 		$h = $un_h;
 		add_filter('comment_feed_limits', array($this, 'filter_unpro_comment_feed_limits'));
 		add_filter('comment_feed_orderby', array($this, 'filter_unpro_comment_feed_orderby'));
-
+		// A hack for WPML.
+		$wp_query->query_vars['post_type'] = FEEDBACK;
 		$query = new WP_Query(array('p' => $_REQUEST['post_id'], 'post_type' => FEEDBACK, 
 			'withcomments' => 1, 'feed' => true));
 		ob_start();
 		$query->the_post();
 		$type = $un_model->get_feedback_type(get_the_ID());
 		$type = $type->slug;
-		$id_or_email = $unpro_model->author_email(get_the_ID());
 		require(usernoisepro_path('/html/feedback-discussion.php'));
 		$comments = ob_get_clean();
 		ob_start();

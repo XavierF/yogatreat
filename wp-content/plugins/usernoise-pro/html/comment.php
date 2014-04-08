@@ -4,9 +4,10 @@
 	</div>
 	<div class="single-comment-content">
 		<h4>
-		<?php $comment = get_comment(get_comment_ID()) ?>
+		<?php $comment_id = get_comment_ID() ?>
+		<?php $comment = get_comment($comment_id) ?>
 		<?php $userdata = null ?>
-		<?php if ($comment->user_id): ?><?php $userdata = get_userdata($comment->user_id) ?><?php endif ?><?php if ($userdata): ?><?php echo esc_html($userdata->display_name) ?><?php else: ?><?php comment_author() ?><?php endif ?>, <small><?php echo un_human_time_diff(get_comment_time('U')) . " " . _('ago')?></small></h4>
+		<?php if ($comment->user_id): ?><?php $userdata = get_userdata($comment->user_id) ?><?php endif ?><?php if ($userdata): ?><?php echo esc_html($userdata->display_name) ?><?php else: ?><?php comment_author() ?><?php endif ?>, <small><?php echo un_human_time_diff(get_comment_time('U', true)) . " " . __('ago', 'usernoise-pro')?></small></h4>
 		<?php if ($comment->comment_approved): ?>
 			<?php comment_text() ?>
 		<?php else: ?>

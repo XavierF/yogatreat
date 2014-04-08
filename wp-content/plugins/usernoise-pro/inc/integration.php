@@ -38,17 +38,19 @@ class UNPRO_Integration {
 	}
 	
 	public function _un_show_button($value){
+		$result = false;
 		switch (un_get_option(UNPRO_SHOW_FEEDBACK_BUTTON)) {
 			case 'no':
-				return false;
+				$result = false;
 				break;
 			case 'registered':
-				return is_user_logged_in();
+				$result = is_user_logged_in();
 				break;
 			default:
-				return true;
+				$result = true;
 				break;
 		}
+		return $result && $value;
 	}
 	
 	public function _un_localization_array($localization){

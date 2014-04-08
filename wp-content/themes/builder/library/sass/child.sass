@@ -7,8 +7,9 @@ $darkGrey: #3F3C3E
 $white: #FFFFFF
 
 body
-	padding-top: 51px
+	padding-top: 60px
 	color: $darkGrey
+	font-family: 'Roboto', sans-serif
  
 a
 	&.link
@@ -17,11 +18,13 @@ a
 // HEADER
 .navbar
 	.navbar-brand
-		width: 170px
-		height: 51px
-		background: url('../images/logo-2x.png') center center no-repeat
+		width: 190px
+		height: 60px
+		background: url('../images/logo-2x.png') center 14px no-repeat
 		background-size: 170px 36px
 		text-indent: -9999px
+		&:hover
+			background-color: rgba(0, 0, 0, .1)
 	.navbar-nav
 		float: right
 	.navbar-nav
@@ -29,6 +32,9 @@ a
 			a
 				color: $white
 				-webkit-font-smoothing: antialiased
+				padding: 20px
+				font-size: 16px
+				font-weight: 300
 				&:hover
 					background: rgba(0, 0, 0, .1)
 			&.active
@@ -50,6 +56,8 @@ a
 	background: url('../images/cover-photo.jpg') 47% 53% no-repeat
 	background-size: 840px 503px
 	text-align: center
+	h1
+		margin: 20px 0
 
 h3.tag 
 	position: absolute

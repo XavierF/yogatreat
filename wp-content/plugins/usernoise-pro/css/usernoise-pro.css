@@ -21,9 +21,14 @@ em{
 	top: 0;
 	height: 100%;
 }
-
+body.rtl #viewport{
+	right: 0;
+}
 #viewport > div{
 	float: left;
+}
+body.rtl #viewport > div{
+	float: right;
 }
 #un-feedback-wrapper{
 	width: 38.298%;
@@ -35,6 +40,9 @@ em{
 	float: left;
 	height: 100%;
 	overflow-y: hidden;
+}
+body.rtl #pro{
+	float: right;
 }
 
 #feedback-list-block{
@@ -52,6 +60,9 @@ em{
 	min-height: 100%;
 	overflow-y: hidden;
 }
+body.rtl #feedback-list-block{
+	float: right;
+}
 #feedback-list-block.loading{
 	background-image: url(../images/ajax-loader-on-gray.gif);
 	background-position: center center;
@@ -66,6 +77,9 @@ em{
 	-moz-border-radius-topright: 3px;
 	border-top-right-radius: 3px;
 	-ms-border-right-top-radius: 3px;
+}
+#body.rtl #feedback-discussion{
+	float: right;
 }
 
 h3{
@@ -211,7 +225,8 @@ h3 small{
 .scrollable .overview {
 	list-style: none; 
 	position: absolute; 
-	left: 0; top: 0; 
+	left: 0; 
+	top: 0; 
 }
 	
 .scrollable{
@@ -278,7 +293,12 @@ h3 small{
 	border-bottom: 5px solid transparent;
 	border-right: 6px solid #555;
 	margin-top: -5px;
-
+}
+body.rtl #button-back:after{
+	right: -5px !important;
+	left: auto !important;
+	border-right: 0px;
+	border-left: 6px solid #555 !important;
 }
 
 #button-back span{
@@ -290,6 +310,9 @@ h3 small{
 
 #submit-comment-wrapper{
 	text-align: right;
+}
+body.rtl #submit-comment-wrapper{
+	text-align: left;
 }
 #comment-loader{
 	float: right;
@@ -345,6 +368,9 @@ h3 small{
 	-ms-transition: all 0.2s;
 	-o-transition: all 0.2s;
 }
+body.rtl #comment-list .likes, body.rtl #comment-list .dislikes, body.rtl #comment-list .feedback-status{
+	float: left;
+}
 #comment-list .likes:hover, #comment-list .dislikes:hover, #comment-list .likes[disabled], #comment-list .dislikes[disabled]{
 	background: #777;
 }
@@ -383,12 +409,20 @@ h3 small{
 	float: left;
 	margin: 0 8px 0 0;
 }
+body.rtl .avatar-wrapper{
+	float: right;
+	margin: 0 0 0 8px;
+}
 .single-comment-content, .fields{
 	margin: 0;
 	margin-left: 63px;
 	padding: 0 !important;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
+}
+body.rtl .single-comment-content, body.rtl .fields{
+	margin: 0;
+	margin-right: 63px;
 }
 #comment-list .avatar-wrapper img{
 	display: block;
@@ -409,10 +443,14 @@ h3 small{
 	-moz-box-sizing: border-box;
 }
 #comment-form input[type=text], #comment-form textarea{
+	clear: left;
 	font-size: 13px;
 	height: 33px;
 	padding-left: 7px;
 	padding-right: 7px;
+}
+body.rtl #comment-form input[type=text], body.rtl #comment-form textarea{
+	text-align: left;
 }
 #comment-form div.right{
 	width: 50%;
@@ -421,9 +459,13 @@ h3 small{
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
+body.rtl #comment-form div.right{
+	float: left;
+	padding-right: 5px;
+	padding-left: 0;
+}
 
 #comment-form textarea{
-	clear: left;
 	height: 100px;
 }
 
@@ -459,9 +501,31 @@ h3 small{
 @media screen and (max-width: 640px){
 	#window{
 		width: 100%;
-		position: absolute;
-		top: 50%;
+		height: 100%;
+		position: fixed !important;
+		-webkit-overflow-scrolling: touch; 
+		overflow: scroll !important;
 	}
+	#pro{
+		display: none;
+	}
+	#un-feedback-wrapper{
+		width: 100%;
+	}
+	#viewport{
+		width: 100% !important;
+		height: 100% !important;
+		position: fixed;
+		left: 0;
+		top: 0;
+		-webkit-overflow-scrolling: touch; 
+		overflow: scroll !important;
+	}
+	#un-feedback-wrapper{
+		max-width: none;
+		width: 100% !important;
+	}
+	
 }
 
 

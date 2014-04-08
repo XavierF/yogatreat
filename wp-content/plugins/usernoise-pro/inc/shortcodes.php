@@ -7,11 +7,13 @@ class UNPRO_Shortcodes {
 		add_filter( 'tiny_mce_version', 'wp_ideas_refresh_mce' );
 		add_shortcode('usernoise_link', array($this, '_usernoise_link'));
 		add_shortcode('usernoise_button', array($this, '_usernoise_button'));
+		add_shortcode('show_usernoise_button', array($this, '_show_usernoise_button'));
+		add_shortcode('hide_usernoise_button', array($this, '_hide_usernoise_button'));
 	}
 	
 	function _admin_enqueue_scripts($suffix){
 		global $submenu_file;
-		if ($submenu_file == 'edit.php'){
+		if (preg_match('/^edit\.php/', $submenu_file)){
 			wp_enqueue_style('unpro-admin', usernoisepro_url('/css/admin.css'), UNPRO_VERSION);
 			wp_enqueue_style('un-font-awesome', usernoise_url('/vendor/font-awesome/css/font-awesome.css'), UNPRO_VERSION);
 		}
@@ -37,11 +39,19 @@ class UNPRO_Shortcodes {
 		global $un_h;
 		if (!$attributes) $attributes = array();
 		$attributes['rel'] = 'usernoise';
-		return $un_h->link_to('#', $content, $attributes);
+		return $un_h->_link_to($content, '#',  $attributes);
 	}
 	
 	function _usernoise_button($attrs, $content){
 		return '<button rel="usernoise" class="usernoise">' . esc_html($content) . "</button>";
+	}
+	
+	function _show_usernoise_button(){
+		return "<script>usernoiseButton.showButton = true; </script>";
+	}
+	
+	function _hide_usernoise_button(){
+		return "<script>usernoiseButton.showButton = false;</script>";
 	}
 	
 }

@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Usernoise Pro v3.5.2\n"
+"Project-Id-Version: Usernoise Pro v3.7.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-04-25 07:31:22+0000\n"
+"PO-Revision-Date: 2013-07-26 04:57:12+0000\n"
 "Last-Translator: karevn <karev.n@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,57 +20,57 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: admin/editor-page.php:25
+#: admin/editor-page.php:29
 #@ usernoise-pro
 msgid "Details"
 msgstr ""
 
-#: admin/editor-page.php:27
+#: admin/editor-page.php:31
 #@ usernoise
 msgid "HTTP Headers"
 msgstr ""
 
-#: admin/editor-page.php:29
+#: admin/editor-page.php:33
 #@ usernoise-pro
 msgid "HTML Dump"
 msgstr ""
 
-#: admin/editor-page.php:33
+#: admin/editor-page.php:37
 #@ usernoise
 msgid "Rewrite Rules"
 msgstr ""
 
-#: admin/editor-page.php:36
+#: admin/editor-page.php:40
 #@ usernoise-pro
 msgid "SQL Queries"
 msgstr ""
 
-#: admin/editor-page.php:39
+#: admin/editor-page.php:43
 #@ usernoise-pro
 msgid "WP query_vars"
 msgstr ""
 
-#: admin/editor-page.php:43
+#: admin/editor-page.php:47
 #@ usernoise-pro
 msgid "WP filters"
 msgstr ""
 
-#: admin/editor-page.php:50
+#: admin/editor-page.php:54
 #@ usernoise-pro
 msgid "Type"
 msgstr ""
 
-#: admin/editor-page.php:53
+#: admin/editor-page.php:57
 #@ usernoise-pro
 msgid "Likes"
 msgstr ""
 
-#: admin/editor-page.php:58
+#: admin/editor-page.php:63
 #@ default
 msgid "Author"
 msgstr ""
 
-#: admin/editor-page.php:96
+#: admin/editor-page.php:103
 #: inc/widgets.php:101
 #@ default
 #@ usernoise-pro
@@ -185,39 +185,39 @@ msgstr ""
 msgid "View page snapshot"
 msgstr ""
 
-#: html/feedback-category.php:19
+#: html/feedback-category.php:22
 #, php-format
 #@ usernoise-pro
 msgid "No %s yet"
 msgstr ""
 
-#: html/feedback-category.php:21
+#: html/feedback-category.php:24
 #@ usernoise-pro
 msgid "No feedback yet"
 msgstr ""
 
-#: html/feedback-discussion.php:39
+#: html/feedback-discussion.php:37
 #: html/filters-meta-box.php:3
 #: html/query-vars-meta-box.php:3
-#: inc/controller.php:173
+#: inc/controller.php:172
 #@ default
 msgid "Name"
 msgstr ""
 
-#: html/feedback-discussion.php:42
-#: inc/controller.php:166
+#: html/feedback-discussion.php:40
+#: inc/controller.php:165
 #@ usernoise-pro
 msgid "Your email (will not be published)"
 msgstr ""
 
-#: html/feedback-discussion.php:47
-#: inc/controller.php:175
+#: html/feedback-discussion.php:45
+#: inc/controller.php:174
 #@ default
 msgctxt "noun"
 msgid "Comment"
 msgstr ""
 
-#: html/feedback-discussion.php:51
+#: html/feedback-discussion.php:49
 #@ default
 msgid "Submit"
 msgstr ""
@@ -225,11 +225,6 @@ msgstr ""
 #: html/feedback-category.php:2
 #@ usernoise-pro
 msgid "Back"
-msgstr ""
-
-#: html/feedback-category.php:4
-#@ usernoise-pro
-msgid "Popular Feedback"
 msgstr ""
 
 #: html/filters-meta-box.php:4
@@ -283,161 +278,118 @@ msgstr ""
 msgid "queries"
 msgstr ""
 
-#: inc/controller.php:107
-#@ usernoise-pro
-msgid "Popular feedback"
-msgstr ""
-
-#: inc/controller.php:108
-#@ usernoise-pro
-msgid "Popular ideas"
-msgstr ""
-
-#: inc/controller.php:109
-#@ usernoise-pro
-msgid "Popular problems"
-msgstr ""
-
-#: inc/controller.php:110
-#@ usernoise-pro
-msgid "Popular questions"
-msgstr ""
-
-#: inc/controller.php:111
-#@ usernoise-pro
-msgid "Popular praises"
-msgstr ""
-
-#: inc/controller.php:164
+#: inc/controller.php:163
 #@ default
 msgid "Hackin, huh?"
 msgstr ""
 
-#: inc/controller.php:223
+#: inc/controller.php:225
 #@ usernoise-pro
 msgid "No Responses"
 msgstr ""
 
-#: inc/controller.php:223
+#: inc/controller.php:225
 #@ usernoise-pro
 msgid "One Response"
 msgstr ""
 
-#: inc/controller.php:224
+#: inc/controller.php:226
 #@ usernoise-pro
 msgid "% Responses"
 msgstr ""
 
-#: inc/controller.php:241
+#: inc/controller.php:243
 #@ usernoise-pro
 msgid "Duplicate comment detected"
 msgstr ""
 
-#: admin/feedback-types.php:36
-#: inc/model.php:35
+#: admin/feedback-types.php:37
+#: inc/model.php:39
 #@ usernoise-pro
 msgid "Feedback types"
 msgstr ""
 
-#: inc/model.php:53
+#: inc/model.php:57
 #@ usernoise-pro
 msgid "From:"
 msgstr ""
 
-#: inc/model.php:122
-#: inc/model.php:138
-#: inc/model.php:155
-#: inc/model.php:172
+#: inc/model.php:141
+#: inc/model.php:157
+#: inc/model.php:174
+#: inc/model.php:191
 #@ default
 msgid "Hacking, huh?"
 msgstr ""
 
-#: inc/model.php:201
+#: inc/model.php:220
 #@ usernoise-pro
 msgid "Enter your name"
 msgstr ""
 
-#: inc/model.php:203
+#: inc/model.php:222
 #@ usernoise-pro
 msgid "Enter an email"
 msgstr ""
 
-#: inc/model.php:208
+#: inc/model.php:227
 #@ usernoise-pro
 msgid "Please say something"
 msgstr ""
 
-#: inc/model.php:214
+#: inc/model.php:233
 #@ usernoise-pro
 msgid "New"
 msgstr ""
 
-#: inc/model.php:215
+#: inc/model.php:234
 #@ usernoise-pro
 msgid "Rejected"
 msgstr ""
 
-#: inc/model.php:216
+#: inc/model.php:235
 #@ usernoise-pro
 msgid "Planned"
 msgstr ""
 
-#: inc/model.php:217
+#: inc/model.php:236
 #@ usernoise-pro
 msgid "In progress"
 msgstr ""
 
-#: inc/model.php:218
+#: inc/model.php:237
 #@ usernoise-pro
 msgid "Done"
 msgstr ""
 
-#: inc/model.php:271
+#: inc/model.php:293
 #, php-format
 #@ default
 msgid "[%1$s] Comment: \"%2$s\""
 msgstr ""
 
-#: inc/model.php:272
+#: inc/model.php:294
 #, php-format
 #@ usernoise-pro
 msgid "New comment on your feedback \"%s\" at %s"
 msgstr ""
 
 #. translators: 1: comment author, 2: author IP, 3: author domain 
-#: inc/model.php:275
+#: inc/model.php:297
 #, php-format
 #@ default
 msgid "E-mail : %s"
 msgstr ""
 
-#: inc/model.php:276
+#: inc/model.php:298
 #, php-format
 #@ default
 msgid "URL    : %s"
 msgstr ""
 
-#: inc/model.php:277
+#: inc/model.php:299
 #@ default
 msgid "Comment: "
-msgstr ""
-
-#: inc/model.php:280
-#, php-format
-#@ default
-msgid "Trash it: %s"
-msgstr ""
-
-#: inc/model.php:282
-#, php-format
-#@ default
-msgid "Delete it: %s"
-msgstr ""
-
-#: inc/model.php:283
-#, php-format
-#@ default
-msgid "Spam it: %s"
 msgstr ""
 
 #: inc/updater.php:46
@@ -576,93 +528,139 @@ msgid "Your comment is being approved now."
 msgstr ""
 
 #: html/comments-blank-slate.php:2
-#@ default
+#@ usernoise-pro
 msgid "No comments yet. You can be the first commenter!"
 msgstr ""
 
-#: html/feedback-category.php:4
-#@ default
-msgid "Popular "
-msgstr ""
-
-#: inc/model.php:205
+#: inc/model.php:224
 #@ usernoise-pro
 msgid "Invalid email format"
 msgstr ""
 
-#: admin/feedback-types.php:37
+#: admin/feedback-types.php:38
 #@ usernoise-pro
 msgid "Feedback type"
 msgstr ""
 
-#: admin/feedback-types.php:38
+#: admin/feedback-types.php:39
 #@ usernoise-pro
 msgid "All feedback types"
 msgstr ""
 
-#: admin/feedback-types.php:39
+#: admin/feedback-types.php:40
 #@ usernoise-pro
 msgid "Edit feedback type"
 msgstr ""
 
-#: admin/feedback-types.php:40
+#: admin/feedback-types.php:41
 #@ usernoise-pro
 msgid "View feedback type"
 msgstr ""
 
-#: admin/feedback-types.php:41
+#: admin/feedback-types.php:42
 #@ usernoise-pro
 msgid "Update feedback type"
 msgstr ""
 
-#: admin/feedback-types.php:42
+#: admin/feedback-types.php:43
 #@ usernoise-pro
 msgid "Add new feedback type"
 msgstr ""
 
-#: admin/feedback-types.php:43
+#: admin/feedback-types.php:44
 #@ usernoise-pro
 msgid "New feedback type name"
 msgstr ""
 
-#: admin/feedback-types.php:49
+#: admin/feedback-types.php:50
 #@ usernoise-pro
 msgid "Feedback Types"
 msgstr ""
 
-#: admin/feedback-types.php:57
-#: admin/feedback-types.php:79
+#: admin/feedback-types.php:58
+#: admin/feedback-types.php:80
 #@ usernoise-pro
 msgid "Icon"
 msgstr ""
 
-#: admin/feedback-types.php:59
-#: admin/feedback-types.php:81
+#: admin/feedback-types.php:60
+#: admin/feedback-types.php:82
 #@ usernoise-pro
 msgid "Icon used for this feedback type"
 msgstr ""
 
-#: admin/feedback-types.php:62
-#: admin/feedback-types.php:84
+#: admin/feedback-types.php:63
+#: admin/feedback-types.php:85
 #@ usernoise-pro
 msgid "Position"
 msgstr ""
 
-#: admin/feedback-types.php:64
-#: admin/feedback-types.php:86
+#: admin/feedback-types.php:65
+#: admin/feedback-types.php:87
 #@ usernoise-pro
 msgid "Type position among other feedback types"
 msgstr ""
 
-#: admin/feedback-types.php:67
-#: admin/feedback-types.php:89
+#: admin/feedback-types.php:68
+#: admin/feedback-types.php:90
 #@ usernoise-pro
 msgid "Name in plural form"
 msgstr ""
 
-#: admin/feedback-types.php:69
-#: admin/feedback-types.php:91
+#: admin/feedback-types.php:70
+#: admin/feedback-types.php:92
 #@ usernoise-pro
 msgid "Plural form used by some of the UI"
+msgstr ""
+
+#: html/feedback-category.php:7
+#@ usernoise-pro
+msgid "Popular"
+msgstr ""
+
+#: html/feedback-category.php:7
+#@ usernoise-pro
+msgid "Feedback"
+msgstr ""
+
+#: inc/model.php:96
+#, php-format
+#@ usernoise-pro
+msgid "Your feedback \"%s\" has been published by admin. Thanks for your feedback!"
+msgstr ""
+
+#: inc/model.php:97
+#, php-format
+#@ usernoise-pro
+msgid "You can view it at %s"
+msgstr ""
+
+#: inc/model.php:98
+#, php-format
+#@ default
+msgid "Feedback approved at %s"
+msgstr ""
+
+#: inc/model.php:259
+#, php-format
+#@ usernoise-pro
+msgid "Your feedback \"%s\" was changed from %s to %s."
+msgstr ""
+
+#: inc/model.php:260
+#, php-format
+#@ usernoise-pro
+msgid "You can view your feedback at %s"
+msgstr ""
+
+#: inc/model.php:261
+#@ usernoise-pro
+msgid "Original feedback was:"
+msgstr ""
+
+#: inc/model.php:263
+#, php-format
+#@ usernoise-pro
+msgid "Feedback status changed at %s"
 msgstr ""
 

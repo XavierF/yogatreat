@@ -27,6 +27,8 @@ class UNPRO_Settings{
 		$options []= array('type' => 'checkbox', 'name' => UNPRO_ENABLE_FEEDS,
 			'title' => __('Enable RSS feeds for feedback published', 'usernoise-pro'),
 			'default' => false);
+		$options []= array('type' => 'text', 'title' => __('Site URL in notifications', 'usernoise-pro'),
+			'name' => UNPRO_NOTIFICATIONS_SITE, 'default' => get_bloginfo('url'), 'class' => 'medium');
 		$options []= array('type' => 'section', 'title' => __('Button', 'usernoise-pro'));
 		$options []= array('type' => 'select', 'name' => UNPRO_SHOW_FEEDBACK_BUTTON,
 			'title' => __('Show feedback button', 'usernoise-pro'),
@@ -47,7 +49,7 @@ class UNPRO_Settings{
 			'rows' => '6');
 		$options []= array('type' => 'section', 'title' => __('Form design', 'usernoise-pro'));
 		$options []= array('type' => 'textarea', 'name' => UNPRO_FORM_CSS, 
-			'title' => __('Custom CSS for Usernoise window', 'usernoise-pro'),
+			'title' => __('Custom CSS for Usernoise window', 'usernoise-pro'), 'rows' => 10,
 			'legend' => __("You can override the form's style by applying your own CSS. Don't forget to remove comment symbols and do not put HTML tags here.", 'usernoise-pro'),
 			'default' => "/*
 h2{
@@ -73,12 +75,10 @@ form input[type=submit]{
 	
 }
 */");
-		
-		$options []= array('type' => 'textarea', 'name' => UNPRO_EXTERNAL_CODE,
+		$options []= array('type' => 'custom', 
 			'title' => __('HTML code for external usage.', 'usernoise-pro'),
 			'legend' => __('Copy this HTML code into your site\'s <head> tag and use Usernoise on the external site. It is recommended to have your site on the same domain as Usernoise is. <strong>Please make sure to update the code if you change Usernoise settings.', 'usernoise-pro'),
-			'default' => unpro_get_external_code(),
-			'disabled' => true);
+			'html' => $this->h->_textarea('', unpro_get_external_code(), array('readonly' => true, 'rows' => 10)));
 		return $options;
 	}
 	

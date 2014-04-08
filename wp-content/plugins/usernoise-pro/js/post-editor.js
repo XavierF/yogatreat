@@ -10,6 +10,8 @@
 						button.onRenderMenu.add(function(c,b){
 							a.addMenuItem(b,"Usernoise form", '[usernoise]');
 							a.addMenuItem(b,"Link to Usernoise", '[usernoise_link]Link[/usernoise_link]');
+							a.addMenuItem(b, 'Show Usernoise button', '[show_usernoise_button]');
+							a.addMenuItem(b, 'Hide Usernoise button', '[hide_usernoise_button]');
 						});
 						return button;
 					}
