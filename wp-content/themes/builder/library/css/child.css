@@ -14,7 +14,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased; }
 
-a.link {
+a {
   color: #974c73; }
 
 .navbar .navbar-brand {
@@ -161,12 +161,13 @@ h3.tag {
 #content {
   margin-top: 2.5em; }
 
-.page-title a, .entry-title a, .archive-title a, .posts-title a {
+.archive-title, .entry-title {
   color: #974c73;
   margin-top: 0; }
 
-.excerpt-read-more a {
-  color: #974c73; }
+.page-title a, .entry-title a, .archive-title a, .posts-title a, .excerpt-read-more a {
+  color: #974c73;
+  margin-top: 0; }
 
 .sidebar {
   border: 1px solid #be91a8;
