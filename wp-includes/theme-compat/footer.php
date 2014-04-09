@@ -26,6 +26,5 @@ _deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.
 <?php /* "Just what do you think you're doing Dave?" */ ?>
 
 		<?php wp_footer(); ?>
-		<script src="<?php get_bloginfo('template_directory'): ?>/library/js/wsLaunch.js"></script>
 </body>
 </html>
