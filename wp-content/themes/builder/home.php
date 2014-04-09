@@ -12,7 +12,7 @@ homepage of your website.
 
 <section id="hero" role="roll with it">
 	<p>
-		<a href="/classes" class="btn btn-primary btn-lg" target="_blank" >View available classes</a>
+		<a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sView=week&sDate=5/10/2014" class="btn btn-primary btn-lg" target="_blank" >Sign up for classes</a>
 	</p>
 	<div class="container">
 		<div class="row">
