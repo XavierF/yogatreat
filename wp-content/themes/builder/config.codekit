@@ -193,6 +193,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/library\/images\/Anya copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.43233e+06,
+		"inputAbbreviatedPath": "\/library\/images\/Anya copy.png",
+		"outputAbbreviatedPath": "\/library\/images\/Anya copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/Anya.png": {
 		"fileType": 32768,
 		"ignore": 0,
