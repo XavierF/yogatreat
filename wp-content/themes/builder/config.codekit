@@ -148,15 +148,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/library\/css\/child.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/css\/child.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/library\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -380,6 +371,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/matPilates-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43793,
+		"inputAbbreviatedPath": "\/library\/images\/matPilates-home.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/matPilates-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/matPilates-home.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -578,13 +580,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/yoga4.JPG": {
+	"\/library\/images\/yoga4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 41261,
-		"inputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
-		"outputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
+		"inputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

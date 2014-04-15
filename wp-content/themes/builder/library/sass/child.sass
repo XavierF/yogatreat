@@ -152,7 +152,7 @@ section
 #matPilates
 	width: 293px
 	height: 209px
-	background: url('../images/matPilates-home.png') center center no-repeat
+	background: url('../images/matPilates-home.jpg') center center no-repeat
 	background-size: cover
 
 #trx
@@ -164,7 +164,7 @@ section
 #taeboFitness
 	width: 293px
 	height: 209px
-	background: url('../images/Tae-Bo-home.jpg') center center no-repeat
+	background: url('../images/taebo-home.jpg') center center no-repeat
 	background-size: cover
 
 #yogaBarre
@@ -226,21 +226,38 @@ section
 			-webkit-font-smoothing: antialiased
 			display: block
 
+		
+
+.textwidget
+	a
+		color: $purple
+		padding: 0 0 20px 40px
+		font-size: 1em
+		font-weight: bold
+		-webkit-font-smoothing: antialiased
+		display: block
+
+ 
+
 
 // FOOTER
 
-footer
-	background: $lightGrey
+.footer
+	background: $darkGrey
+	text-align: center
+	padding: 10px 0 10px
 
 .source-org
 	display: inline-block
-	color: $purple
+	color: $lightGrey
 	margin: 10px 0 0 0
 
 .footer-nav
 	display: inline-block
-	float: right
+	float: none
 	margin-bottom: 10px
+	margin-left: 0px
+	margin-right: 0px
 
 .footer-nav
 	ul
@@ -250,11 +267,49 @@ footer
 	li
 		a
 			padding-left: 15px
-			color: $purple
+			color: $lightGrey
 			-webkit-font-smoothing: antialiased
 			&:hover
 				text-decoration: none
-				color: $darkPurple
+				color: $lightGrey
+
+// SOCIAL
+.social
+	li
+		display: inline
+
+.social
+	li
+		a
+			display: inline-block
+			padding: 0px 3px
+			width: 20px
+			height: 20px
+
+.icon
+	display: inline-block
+	width: auto
+	height: auto
+	vertical-align: baseline
+
+.facebook
+	width: 20px
+	height: 20px
+	background: url('../images/facebook.png') center center no-repeat
+	background-size: cover
+
+.instagram
+	width: 20px
+	height: 20px
+	background: url('../images/instagram.png') center center no-repeat
+	background-size: cover
+
+.twitter
+	width: 20px
+	height: 20px
+	background: url('../images/twitter.png') center center no-repeat
+	background-size: cover
+
 			
 	
 // MEDIA QUERIES
