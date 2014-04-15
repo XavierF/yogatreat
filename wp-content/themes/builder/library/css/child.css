@@ -233,7 +233,8 @@ h3.tag {
     color: #b3a9af; }
 
 .social {
-  margin-left: -40px; }
+  margin-left: -40px;
+  margin-top: 20px; }
 
 .social li {
   display: inline; }
