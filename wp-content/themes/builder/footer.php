@@ -4,7 +4,7 @@
 
 				<div id="inner-footer" class="wrap clearfix">
 	<ul class="social">
-		<li><a href="http://facebook.com"><i class="icon facebook"></i></a></li>
+		<li><a href="https://www.facebook.com/pages/Yoga-Treat/1480466952175295"><i class="icon facebook"></i></a></li>
 		<li><a href="http://instagram.com/yogatreat?"><i class="icon instagram"></i></a></li>
 		<li><a href="http://twitter.com"><i class="icon twitter"></i></a></li>
 	</ul>
