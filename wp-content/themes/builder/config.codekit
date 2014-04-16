@@ -65,17 +65,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/favicon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1155,
-		"inputAbbreviatedPath": "\/favicon.png",
-		"outputAbbreviatedPath": "\/favicon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -598,6 +587,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/yoga-treat-default-thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110798,
+		"inputAbbreviatedPath": "\/library\/images\/yoga-treat-default-thumbnail.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/yoga-treat-default-thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/yoga.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -642,13 +642,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/yoga4.JPG": {
+	"\/library\/images\/yoga4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 41261,
-		"inputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
-		"outputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
+		"inputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
