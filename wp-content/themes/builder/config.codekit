@@ -47,6 +47,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/class-schedule.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/class-schedule.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/comments.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -144,6 +153,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/builder.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/library\/css\/child.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/css\/child.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -261,6 +279,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 235,
+		"inputAbbreviatedPath": "\/library\/images\/facebook.png",
+		"outputAbbreviatedPath": "\/library\/images\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/flat.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -268,6 +297,17 @@
 		"initialSize": 6716,
 		"inputAbbreviatedPath": "\/library\/images\/flat.png",
 		"outputAbbreviatedPath": "\/library\/images\/flat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/instagram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302,
+		"inputAbbreviatedPath": "\/library\/images\/instagram.png",
+		"outputAbbreviatedPath": "\/library\/images\/instagram.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -426,6 +466,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/taebo-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22704,
+		"inputAbbreviatedPath": "\/library\/images\/taebo-home.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/taebo-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/taeboFitness copy.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -488,6 +539,17 @@
 		"initialSize": 4.75497e+06,
 		"inputAbbreviatedPath": "\/library\/images\/trx.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/trx.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279,
+		"inputAbbreviatedPath": "\/library\/images\/twitter.png",
+		"outputAbbreviatedPath": "\/library\/images\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -580,13 +642,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/yoga4.jpg": {
+	"\/library\/images\/yoga4.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 41261,
-		"inputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/yoga4.jpg",
+		"inputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
+		"outputAbbreviatedPath": "\/library\/images\/yoga4.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
