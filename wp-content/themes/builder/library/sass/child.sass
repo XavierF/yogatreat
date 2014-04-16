@@ -25,6 +25,9 @@ body
 a
 	color: $purple
 
+p.center
+	text-align: center
+
 // HEADER
 .navbar
 	.navbar-brand
@@ -217,55 +220,33 @@ h1.page-title
 	padding-left: 0
 	padding-right: 0
 	.widget
+		font-family: 'Ruluko'
+		.btn
+			margin: 20px 0
+			font-size: 16px
+			padding: 8px 32px
+		.widgettitle
+			font-family: 'Niconne'
+			font-size: 28px
+			display: block
+			color: $darkGrey
+			background: #f0f0f0
+			text-align: center
+			padding: 10px 15px
+			margin-top: 0
 		ul
+			overflow: auto
 			padding: 0
 			margin: 0
+			list-style-type: none
 			li
 				float: left
 				width: 50%
 				text-align: center
-				padding: 0 10px
+				padding: 8px 10px
 				a
 					color: $darkPurple
-					font-family: 'Ruluko'
-					font-size: 15px
-
-.widgettitle
-	font-family: 'Niconne'
-	font-size: 28px
-	display: block
-	color: $darkGrey
-	background: #f0f0f0
-	text-align: center
-	padding: 10px 15px
-	margin-top: 0
-	
-
-.widget
-	ul
-		list-style-type: none
-.widget
-	li
-		a
-			color: $purple
-			padding: 10px 0
-			font-size: 1em
-			-webkit-font-smoothing: antialiased
-			display: block
-
-		
-
-.textwidget
-	a
-		color: $purple
-		padding: 0 0 20px 40px
-		font-size: 1em
-		font-weight: bold
-		-webkit-font-smoothing: antialiased
-		display: block
-
- 
-
+					font-size: 16px
 
 // FOOTER
 
