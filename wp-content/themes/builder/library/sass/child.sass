@@ -30,6 +30,19 @@ a
 
 // HEADER
 .navbar
+	.navbar-toggle
+		border: none
+		margin-top: 11px
+		border-radius: 2px
+		&:hover, &:active
+			background: rgba(0, 0, 0, .1)
+			outline: none
+		&:focus
+			outline: none
+			background: transparent
+		.icon-bar
+			height: 3px
+			border-radius: 0
 	.navbar-brand
 		width: 190px
 		height: 60px
@@ -328,6 +341,22 @@ h1.page-title
 			
 	
 // MEDIA QUERIES
+@media screen and (max-width: 480px)
+	.navbar
+		.navbar-collapse
+			.navbar-nav
+				margin: 10px 0
+				display: block
+				width: 100%
+				li
+					float: left
+					text-align: center
+					width: 50%
+					&:last-child
+						width: 100%
+						display: block
+					a
+						padding: 12px 24px
 @media screen and (min-width: 1200px)
 	.container
 		width: 970px
