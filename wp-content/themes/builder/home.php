@@ -12,7 +12,7 @@ homepage of your website.
 
 <section id="hero" role="roll with it">
 	<p>
-		<a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sView=week&sDate=5/10/2014" class="btn btn-primary btn-lg" target="_blank" >View class schedule &raquo;</a>
+		<a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sTG=22&sVT=6&sView=week&sDate=6/2/2014" class="btn btn-primary btn-lg" target="_blank" >View class schedule &raquo;</a>
 	</p>
 	<div class="container">
 		<div class="row">
