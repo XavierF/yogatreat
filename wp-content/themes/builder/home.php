@@ -9,11 +9,23 @@ homepage of your website.
 */
 ?>
 <?php get_header(); ?>
-
+<?php
+// The Query
+query_posts('cat=9');
+?>
+<?php remove_filter ('the_content', 'wpautop'); ?>
 <section id="hero" role="roll with it">
-	<p>
+	<!--<p>
 		<a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sTG=22&sVT=6&sView=week&sDate=6/2/2014" class="btn btn-primary btn-lg" target="_blank" >View class schedule &raquo;</a>
+	</p> -->
+	<!-- dynamic custom post url button code starts here -->
+	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <p>	
+	 <a href="<?php the_content(); ?>" class="btn btn-primary btn-lg" target="_blank" >View class schedule &raquo;</a>
 	</p>
+	<?php endwhile; endif; ?>  
+	<!-- and ends here -->
+
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
