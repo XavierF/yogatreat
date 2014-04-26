@@ -1,12 +1,10 @@
 <?php 
-/*
-Use this page if you want to create a custom homepage for 
-your site. WordPress will look for home.php before index.php. If
-you end up using a custom home.php page you can also use the 
-blog.php page to display your blog posts. Simply rename or delete
-this page template and the latest blog posts(index.php) will be the
-homepage of your website. 
-*/
+/**
+ * Home Page Template
+ *
+   Template Name:  Home Page Template
+ *
+ */
 ?>
 <?php get_header(); ?>
 <?php
@@ -21,9 +19,9 @@ query_posts('cat=9');
 	<!-- dynamic custom post url button code starts here -->
 	
   <p>	
-	 <a href="<?php the_field('class_url_link'); ?>" class="btn btn-primary btn-lg" target="_blank" ><?php the_field('class_url_title'); ?></a>
+	 <a href="<?php the_field('class_url_link'); ?>" class="btn btn-primary btn-lg" target="_blank" ><?php the_field('class_url_text'); ?></a>
 	</p>
-	
+
 	 
 	<!-- and ends here -->
 
