@@ -45,9 +45,6 @@
 		</head>
 
 		<body <?php body_class(); ?>>
-
-
-
 			<div class="wrapper">
 
 				<header class="header" role="banner">
@@ -64,13 +61,17 @@
 
 									<a class="navbar-brand" href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="homepage"><?php bloginfo( 'name' ) ?></a>
 
-								</div>
+								</div><!-- end .navbar-header -->
 
 								<div class="navbar-collapse collapse navbar-responsive-collapse">
 									<?php bones_main_nav(); ?>
-								</div>
-							</div>
-						</div> 
+								</div><!-- end .navbar-collapse -->
+										<div class="banner">
+											<p>Get 20% off before June 1</p>
+											<a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=150291" class="btn btn-primary" target="_blank" >Sign up now</a>
+										</div><!-- end #banner -->
+							</div><!-- end .container -->
+						</div> <!-- end .navbar navbar-inverse navbar-fixed-top -->
 						
 					</nav>
 

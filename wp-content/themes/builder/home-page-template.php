@@ -7,11 +7,7 @@
  */
 ?>
 <?php get_header(); ?>
-<?php
-// The Query
-query_posts('cat=9');
-?>
-<?php remove_filter ('the_content', 'wpautop'); ?>
+
 <section id="hero" role="roll with it">
 	<!--<p>
 		<a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sTG=22&sVT=6&sView=week&sDate=6/2/2014" class="btn btn-primary btn-lg" target="_blank" >View class schedule &raquo;</a>
@@ -82,9 +78,25 @@ query_posts('cat=9');
 	</div><!-- .container -->
 </section>
 
+<div class="modal fade" id="#modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
-	jQuery(document).ready(function($){
-		$('.carousel').carousel('pause');
-	});
+jQuery(document).ready(function($) { setTimeout(function() { $('#modal').modal('show'); }, 3000); });
 </script>
 <?php get_footer(); ?>
