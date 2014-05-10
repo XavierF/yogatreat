@@ -9,7 +9,7 @@
     background: #753b59; }
 
 body {
-  padding-top: 71px;
+  padding-top: 113px;
   background-color: white;
   color: #3f3c3e;
   font-family: "Roboto", sans-serif;
@@ -70,32 +70,35 @@ a {
 .banner {
   position: absolute;
   top: 61px;
-  border: 0;
   left: 50%;
-  margin-left: -191px;
+  margin-left: -218px;
   background: #efefef;
-  height: 45px;
+  height: auto;
   width: auto;
-  padding: 5px 20px;
+  padding: 5px 10px 0px 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
   font-size: 16px;
   font-weight: 500;
+  border: 1px solid #dadada;
+  border-top: none;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px; }
   .banner p {
     display: inline-block;
-    margin-right: 50px;
+    margin: 0 10px 10px 0;
     line-height: 2em; }
   .banner .btn-primary {
     display: inline-block;
     background: #4ba7e1;
     color: white;
-    font-weight: 500; }
+    font-weight: 500;
+    padding: 4px 12px; }
 
 #hero {
   position: relative;
   height: 540px;
-  background: url("../images/cover-photo.jpg") center 100px no-repeat;
-  background-size: 840px 503px;
+  background: url("../images/cover-photo.jpg") center 120px no-repeat;
+  background-size: 802px 480px;
   text-align: center; }
   #hero h1 {
     font-size: 42px;

@@ -67,8 +67,8 @@
 									<?php bones_main_nav(); ?>
 								</div><!-- end .navbar-collapse -->
 										<div class="banner">
-											<p>Get 20% off before June 1</p>
-											<a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=150291" class="btn btn-primary" target="_blank" >Sign up now</a>
+											<p>Save 20% on June yoga package</p>
+											<a href="http://clients.mindbodyonline.com/ws.asp?studio=YogaTreatCA&stype=40&prodid=101" class="btn btn-primary" target="_blank" >Sign up now</a>
 										</div><!-- end #banner -->
 							</div><!-- end .container -->
 						</div> <!-- end .navbar navbar-inverse navbar-fixed-top -->
