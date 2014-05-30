@@ -378,6 +378,9 @@ h4.posts-title a {
   background-size: cover; }
 
 @media screen and (max-width: 480px) {
+  body {
+    padding-top: 120px; }
+
   .navbar .navbar-collapse {
     border-color: rgba(0, 0, 0, 0.15); }
     .navbar .navbar-collapse .navbar-nav {
@@ -392,11 +395,12 @@ h4.posts-title a {
           padding: 12px 24px; }
 
   .banner {
-    top: 61px;
-    left: 76%;
-    margin-left: -218px;
+    position: static;
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
-    padding: 5px 10px 10px 10px; }
+    padding: 5px 10px 10px 10px;
+    border-radius: 4px; }
     .banner p {
       display: block; }
     .banner .btn-primary {
