@@ -28,7 +28,13 @@
 		<!-- CUSTOM JS  -->
 		<script>
 			
-				jQuery('li.trigger-contact a').attr('id', 'contact-us');
+				
+				jQuery(document).ready(function($){
+     $('.navbar-toggle').bind( "touchstart", function(e){
+          e.preventDefault();
+          $('.navbar-collapse').collapse('toggle');
+     });
+		$('li.trigger-contact a').attr('id', 'contact-us');
 			
 		</script>
 	</body>

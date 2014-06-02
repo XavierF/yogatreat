@@ -35,38 +35,50 @@
 <!-- <a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sView=week&sDate=5/10/2014" class="btn btn-primary btn-lg" target="_blank" >View available classes</a> -->
 		<div class="row content">
 			
-			
 			<div class="col-md-4">
-				<div id="yoga"></div>
-				<div class="class-title-link"><a href="/power-yoga-treat-2/">Yoga</a></div> 
-			</div>
+				<a href="<?php the_field('class_1_url'); ?>" class="class-container">
+					<div class="class-thumb" style="background: url('<?php the_field('class_1_img');?>') center center no-repeat; background-size: cover;"></div>
+					<p class="class-text"><?php the_field('class_1_title'); ?></p>
+				</a> 
+			</div><!-- end .col-md-4 -->
 
 			<div class="col-md-4">
-				<div id="matPilates"></div>
-				<div class="class-title-link"><a href="/mat-pilates-2/">Mat Pilates</a></div> 
-			</div>
+				<a href="<?php the_field('class_2_url'); ?>" class="class-container">
+					<div class="class-thumb" style="background: url('<?php the_field('class_2_img');?>') center center no-repeat; background-size: cover;"></div>
+					<p class="class-text"><?php the_field('class_2_title'); ?></p>
+				</a> 
+			</div><!-- end .col-md-4 -->
 			
-			<div class="col-md-4">
-				<div id="trx"></div>
-				<div class="class-title-link"><a href="/yoga-trx-fusion-2/">TRX</a></div> 
-			</div>
+			<div class="col-md-4">	
+				<a href="<?php the_field('class_3_url'); ?>" class="class-container">
+					<div class="class-thumb" style="background: url('<?php the_field('class_3_img');?>') center center no-repeat; background-size: cover;"></div>
+					<p class="class-text"><?php the_field('class_3_title'); ?></p>
+				</a> 
+			</div><!-- end .col-md-4 -->
 		</div><!-- .row -->
 
 		<div class="row content">
       <div class="col-md-4">
-      	<div id="taeboFitness"></div>
-      	<div class="class-title-link"><a href="/tae-bo-fitness-2/">Tae Bo® Fitness</a></div> 
+     		<a href="<?php the_field('class_4_url'); ?>" class="class-container">
+     			<div class="class-thumb" style="background: url('<?php the_field('class_4_img');?>') center center no-repeat; background-size: cover;"></div>
+      		<p class="class-text"><?php the_field('class_4_title'); ?></p>
+      	</a> 
       </div>
 
       <div class="col-md-4">
-      	<div id="yogaBarre"></div>
-      	<div class="class-title-link"><a href="/barre-treat-2/">Yoga Barre</a></div> 
-      </div>
+      	<a href="<?php the_field('class_5_url'); ?>" class="class-container">
+      		<div class="class-thumb" style="background: url('<?php the_field('class_5_img');?>') center center no-repeat; background-size: cover;"></div>
+      		<p class="class-text"><?php the_field('class_5_title'); ?></p>
+      	</a>  
+      </div><!-- end .col-md-4 -->
 
       <div class="col-md-4">
-				<div id="kids"></div>
-				<div class="class-title-link"> <a href="/total-body-treat-kids-and-teens-2/">Kids and Teens</a></div> 
-      </div>
+				<a href="<?php the_field('class_6_url'); ?>" class="class-container">
+					<div class="class-thumb" style="background: url('<?php the_field('class_6_img');?>') center center no-repeat; background-size: cover;"></div>
+					<p class="class-text"><?php the_field('class_6_title'); ?></p>
+				</a> 
+      </div><!-- end .col-md-4 -->
+
 		</div><!-- .row -->
 	</div><!-- .container -->
 </section>

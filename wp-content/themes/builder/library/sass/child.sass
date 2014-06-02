@@ -6,16 +6,6 @@ $lightGrey: #B3A9AF
 $darkGrey: #3F3C3E
 $white: #FFFFFF
 
-.btn-primary
-	background: $purple
-	border: 1px solid rgba(0, 0, 0, .2)
-	border-radius: 3px
-	font-weight: 300
-	-webkit-font-smoothing: antialiased
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .18), 0 1px 4px rgba(0, 0, 0, .15)
-	&:hover
-		background: darken($purple, 10%)
-
 body
 	padding-top: 113px
 	background-color: lighten($lightGrey, 50%)
@@ -132,8 +122,14 @@ a
 		right: 0
 		margin: 0
 	.btn-primary
-		padding: 10px 30px 12px
-		font-size: 18px
+		background: $purple
+		border: 1px solid rgba(0, 0, 0, .2)
+		border-radius: 3px
+		font-weight: 300
+		-webkit-font-smoothing: antialiased
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, .18), 0 1px 4px rgba(0, 0, 0, .15)
+		&:hover
+			background: darken($purple, 10%)
 
 
 h3.tag 
@@ -193,41 +189,26 @@ h3.tag
 	margin: 10px 
 	-webkit-font-smoothing: antialiased
 
-#yoga
-	width: 293px
-	height: 209px
-	background: url('../images/yoga-home.jpg') center center no-repeat
-	background-size: cover
+//HOME PAGE THUMBS
 
-#matPilates
+.class-container
+	text-align: center
+	display: block
 	width: 293px
-	height: 209px
-	background: url('../images/matPilates-home.jpg') center center no-repeat
-	background-size: cover
 
-#trx
-	width: 293px
+.class-thumb
+	width: 100%
 	height: 209px
-	background: url('../images/trx-home.jpg') center center no-repeat
-	background-size: cover
 
-#taeboFitness
-	width: 293px
-	height: 209px
-	background: url('../images/taebo-home.jpg') center center no-repeat
-	background-size: cover
+.class-text
+	background: $purple 
+	text-align: center
+	color: white
+	width: 100%
+	padding: 10px
 
-#yogaBarre
-	width: 293px
-	height: 209px
-	background: url('../images/yogaBarre-home.png') center center no-repeat
-	background-size: cover
 
-#kids
-	width: 293px
-	height: 209px
-	background: url('../images/Kids-Fitness-home.jpg') center center no-repeat
-	background-size: cover
+
 
 
 //PAGE CONTENT
