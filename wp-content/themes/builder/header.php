@@ -66,13 +66,14 @@
 								<div class="navbar-collapse collapse navbar-responsive-collapse">
 									<?php bones_main_nav(); ?>
 								</div><!-- end .navbar-collapse -->
-										<div class="banner">
-											<p>Save 15% Off Thru June 7th</p>
-											<a href="http://clients.mindbodyonline.com/ws.asp?studio=YogaTreatCA&stype=40&prodid=101" class="btn btn-primary" target="_blank" >Sign up now</a>
-										</div><!-- end #banner -->
+										
 							</div><!-- end .container -->
 						</div> <!-- end .navbar navbar-inverse navbar-fixed-top -->
 						
 					</nav>
+					<div class="banner">
+											<p><?php the_field('btn_info', 'option'); ?></p>
+											<a href="<?php the_field('btn_url', 'option'); ?>" class="btn btn-primary" target="_blank" ><?php the_field('btn_text' , 'option'); ?></a>
+										</div><!-- end #banner -->
 
 				</header> <!-- end header -->
