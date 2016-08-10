@@ -27,10 +27,18 @@
 		<?php wp_footer(); ?>
 		<!-- CUSTOM JS  -->
 		<script>
-			
+		jQuery(document).ready(function($){
+			$('.navbar-collapse').collapse('toggle');
+          });
+				
 				jQuery('li.trigger-contact a').attr('id', 'contact-us');
+				$('#myModal').on('shown.bs.modal', function () {
+  		$('#signUp').focus()
+});
+			});
 			
 		</script>
+		<script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
 	</body>
 
 </html> <!-- end page. what a ride! -->

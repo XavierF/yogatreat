@@ -145,6 +145,10 @@ function bones_scripts_and_styles() {
     // Bootstrap JS
     wp_register_script( 'bones-bootstrap', get_stylesheet_directory_uri() . '/library/js/libs/bootstrap.min.js', array(), '3.0.0', true );
 
+    //dropdown doubletap
+
+    wp_register_script( 'dropdown-doubletap', get_stylesheet_directory_uri() . '/library/js/libs/dropdown-doubletap.js', array(), '3.0.0', true );
+
     // enqueue styles and scripts
     wp_enqueue_script( 'bones-modernizr' );
     wp_enqueue_style( 'bones-stylesheet' );

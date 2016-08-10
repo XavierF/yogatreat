@@ -61,16 +61,51 @@ a
 				padding: 20px 15px
 				font-size: 16px
 				font-weight: 300
-				&:hover
+				&:hover, &:focus
 					background: rgba(0, 0, 0, .1)
 			&.active
 				a
 					background: rgba(0, 0, 0, .1)
 					&:hover
 						background: rgba(0, 0, 0, .2)
+			.navbar-inverse 
+				.dropdown
+					&:hover
+						.dropdown-menu
+							display: block !important
+					a
+						.caret
+							border-top-color: white !important
+							border-bottom-color: white !important
+
+		.active
+			a
+				background: rgba(255, 255, 255, .78)
+				&:hover
+					background: rgba(0, 0, 0, .1)
+				&:focus
+					background: rgba(0, 0, 0, .1)
+
+		.open
+			a
+				display: block
+				background: $purple !important
+				&:hover
+					background: rgba(0, 0, 0, .1)
+	.dropdown-menu
+		background: $purple
+		padding: 0
+		a
+			&:hover
+				background: rgba(0, 0, 0, .1)
+
+
+
+
 //			&:last-child
 //				a
 //					padding: 20px 0 20px 15px
+
 .navbar-inverse
 	background: $purple
 	border-bottom: 1px solid rgba(0, 0, 0, .2)
@@ -148,7 +183,15 @@ h3.tag
 	bottom: auto
 	font-weight: light
 	-webkit-font-smoothing: antialiased
+.diablo	
+	margin: 0 auto !important
+	border: 1px solid transparent
+	&:hover
+		border: 1px solid $lilac
 
+.home
+	.col-md-3
+		text-align: center !important
 #classes
 	padding: 40px 0
 
@@ -420,7 +463,7 @@ h4.posts-title
 	background: url('../images/yelp.png') center center no-repeat
 	background-size: cover
 	
-// MEDIA QUERIES
+// -------------------------------------------------------    MEDIA QUERIES --------------------------------****
 
 @media screen and (max-width: 480px)
 	body
@@ -442,6 +485,7 @@ h4.posts-title
 					a
 						padding: 12px 24px
 
+
 //	.banner
 //		position: static
 //		width: 100%
@@ -453,23 +497,38 @@ h4.posts-title
 //			display: block
 //		.btn-primary
 //			display: block
+
+@media screen and (min-width: 320px) and (max-width: 480px)
+
+	.home
+		.col-xs-6
+			width: 100% !important
+			margin: 5px 0
+			text-align: center
+			img
+				margin: 0 auto
+
 @media screen and (max-width: 480px) and (orientation : portrait)
 
 	.banner
 		text-align: center
 		padding-bottom: 5px
 
-@media screen and (max-width: 568px)
+@media screen and (max-width: 568px) 
 	.class-container
 		text-align: center
 		width: 100%
 	.banner
-		left: 35%
+		left: 47%
+	.diablo
+		margin-bottom: 15px
 
+@media screen and (min-width: 567px) and (max-width: 991px)
+	.diablo
+		margin-bottom: 15px
 
-@media screen and (min-width: 481px) and (max-width:767px)
-	.col-md-4
-		display: inline-block
+@media screen and (min-width: 481px) and (max-width: 767px)
+	
 	.navbar
 		.navbar-collapse
 			border-color: rgba(0, 0, 0, .15)
@@ -488,7 +547,7 @@ h4.posts-title
 						padding: 12px 24px
 
 
-@media screen and (min-width: 768px) and (max-width:991px)
+@media screen and (min-width: 768px) and (max-width: 991px)
 	body
 		padding-top: 100px
 
