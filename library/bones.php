@@ -145,6 +145,9 @@ function bones_scripts_and_styles() {
     // Bootstrap JS
     wp_register_script( 'bones-bootstrap', get_stylesheet_directory_uri() . '/library/js/libs/bootstrap.min.js', array(), '3.0.0', true );
 
+    // Jquery cookie JS
+    wp_register_script( 'bones-cookie', get_stylesheet_directory_uri() . '/library/js/libs/jquery.cookie.js', array(), '', true );
+
     //dropdown doubletap
 
     wp_register_script( 'dropdown-doubletap', get_stylesheet_directory_uri() . '/library/js/libs/dropdown-doubletap.js', array(), '3.0.0', true );
@@ -164,6 +167,7 @@ function bones_scripts_and_styles() {
     wp_enqueue_script( 'jquery' );
     wp_enqueue_script( 'bones-js' );
     wp_enqueue_script( 'bones-bootstrap' );
+    wp_enqueue_script( 'bones-cookie' );
 
   }
 }

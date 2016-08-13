@@ -81,9 +81,6 @@
 						</div> <!-- end .navbar navbar-inverse navbar-fixed-top -->
 						
 					</nav>
-					<div class="banner">
-											<p><?php the_field('btn_info', 'option'); ?></p>
-											<a href="<?php the_field('btn_url', 'option'); ?>" class="btn btn-primary" target="_blank" ><?php the_field('btn_text' , 'option'); ?></a>
-										</div><!-- end #banner -->
+		
 
 				</header> <!-- end header -->

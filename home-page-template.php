@@ -16,11 +16,11 @@
 	
   <p>	
 	 <!--<a href=" " class="btn btn-primary btn-lg" target="_blank" ><?php the_field('class_url_text'); ?></a> -->
-	 <a href="<?php the_field('class_url_link'); ?>" class="btn btn-primary btn-lg" target="_blank" ><?php the_field('class_url_text'); ?></a>sup?
+	 <a href="<?php the_field('class_url_link'); ?>" class="btn btn-primary btn-lg" target="_blank" ><?php the_field('class_url_text'); ?></a>
 	</p>
 	<!-- and ends here -->
 
-	<div class="container">
+	<div class="container site-">
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="tag"><?php $site_description = get_bloginfo( 'description', 'display' ); echo "$site_description";?></h1>
@@ -112,21 +112,22 @@
 	</div><!-- .container -->
 </section>
 
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><?php the_field('btn_info', 'option'); ?></h4>
+            </div>
+            <div class="modal-body">
+              <?php the_field('modal-info'); ?>
+			<div class="click"><a href="<?php the_field('btn_url', 'option'); ?>" class="btn btn-primary btn-lg" target="_blank" ><?php the_field('btn_text' , 'option'); ?></a></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="close">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-<div class="modal" id="signUp">
-	<div class="modal-dialog">
-		
-		<div class="modal-content">
-			<div class="modal-header">
-			<h3>Class Schedule</h3>	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		</div>
-		<div class="modal-body">
-			<?php the_field('overlay_content') ?>
-			</div>
-	 <div class="modal-footer">
-	 <a href="<?php the_field('class_url_link'); ?>" class="btn btn-primary btn-lg" target="_blank" ><?php the_field('class_url_text'); ?>#</a>
-	 </div>
-	 </div><!-- .modal-content -->
-	</div><!-- .modal-dialog -->
-</div><!-- .modal -->
 <?php get_footer(); ?>

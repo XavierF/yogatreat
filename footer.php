@@ -28,17 +28,30 @@
 		<!-- CUSTOM JS  -->
 		<script>
 		jQuery(document).ready(function($){
+			$('.navbar-toggle').bind( "touchstart", function(e){
+          e.preventDefault();
 			$('.navbar-collapse').collapse('toggle');
-          });
-				
-				jQuery('li.trigger-contact a').attr('id', 'contact-us');
-				$('#myModal').on('shown.bs.modal', function () {
-  		$('#signUp').focus()
-});
 			});
+			 
+			 window.setTimeout(function(){
+            $('#myModal').modal('show');
+        }, 8000)
+
+			 if (jQuery.cookie('shown_modal')==undefined) {
+           jQuery.cookie('shown_modal', 'true');
+           jQuery('#myModal').modal();
+        }
+
+			 });
+
+
+				
+		jQuery('li.trigger-contact a').attr('id', 'contact-us');
 			
 		</script>
 		<script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
+
+		
 	</body>
 
 </html> <!-- end page. what a ride! -->

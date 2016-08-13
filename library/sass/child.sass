@@ -7,8 +7,7 @@ $darkGrey: #3F3C3E
 $white: #FFFFFF
 
 body, html
-	padding-top: 50px
-	height: 100% !important
+	padding-top: 20px
 	background-color: lighten($lightGrey, 50%)
 	color: $darkGrey
 	font-family: 'Roboto', sans-serif
@@ -233,6 +232,24 @@ h3.tag
 	margin: 10px 
 	-webkit-font-smoothing: antialiased
 
+//HEALCODE
+.mindbody_classic
+	.header
+		padding: 0 10px
+		border-radius: 5px
+
+// MODAL
+.modal-content
+	border: 1px solid $purple
+.modal-header
+	color: white
+	background: $purple
+	text-align: center
+.modal-body
+	text-align: center
+	.click
+		text-align: center
+
 //HOME PAGE THUMBS
 .col-md-4
 	text-align: center
@@ -338,6 +355,17 @@ h4.posts-title
 	ul
 		margin-left: -40px
 
+#xsss-buttons-after
+	margin: 10px 0
+
+.xsss-fb, .xsss-t, .xsss-g
+	margin: 0 5px
+.xsss-fb
+	a
+		background: #3A5A9B
+
+
+
 // SIDEBAR
 
 .sidebar 
@@ -347,10 +375,6 @@ h4.posts-title
 	padding-right: 0
 	.widget
 		font-family: 'Ruluko'
-		.btn
-			margin: 20px 0
-			font-size: 16px
-			padding: 8px 32px
 		.widgettitle
 			font-family: 'Niconne'
 			font-size: 28px
@@ -373,6 +397,11 @@ h4.posts-title
 			a
 				color: $darkPurple
 				font-size: 16px
+.widget_search
+	.input-group
+		padding: 15px
+	.btn-primary
+		margin: 0
 
 // FOOTER
 .push
