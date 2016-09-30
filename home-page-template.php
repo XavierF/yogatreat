@@ -20,7 +20,7 @@
 	</p>
 	<!-- and ends here -->
 
-	<div class="container site-">
+	<div class="container site">
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="tag"><?php $site_description = get_bloginfo( 'description', 'display' ); echo "$site_description";?></h1>
@@ -30,30 +30,21 @@
 	</div>
 </section>
 
-<section id="schedule">
-	<div class="container">
-		<healcode-widget data-type="schedules" data-widget-partner="mb" data-widget-id="ba30874bf96" data-widget-version="0.1"></healcode-widget>
-	</div>
-</section>
-
 <section id="classes">
 	<div class="container">
 <!-- <a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sView=week&sDate=5/10/2014" class="btn btn-primary btn-lg" target="_blank" >View available classes</a> -->
 		<div class="row">
-			<div class="col-md-3 col-sm-6 col-xs-6">
-				<a href="https://lessons.com" title="Lessons" target="_blank"><img src="https://cdn.lessons.com/assets/images/desktop/lessons-2016.png" class="img-responsive" height="200" alt="Barre" /></a>
-			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-6">
+			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="http://www.diablomag.com/Best-of-the-East-Bay-Voting-2016/" target="_blank"><img class="img-responsive diablo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/library/images/bestofbay.png" /></a>
 			</div>
-			<div class="col-md-3 col-sm-6 col-xs-6">
+			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="http://sf.cityvoter.com/wbiz/694261" target="_blank" class="cv-wlink" data-type="winnersbadge" data-eid="1035001" data-bid="694261" data-year="2016" data-rank="2">
 					<img class="img-responsive diablo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/library/images/VotingLogo.png" />
         	<h2 class="vote-title">BEST YOGA STUDIO</h2>
     		</a>
 			</div>
-			<div class="col-md-3 col-sm-6 col-xs-6">
+			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="http://www.diablomag.com/January-2016/The-Best-Fitness-Classes-for-2016/" target="_blank"><img class="img-responsive diablo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/library/images/diablo-cover.png" /></a>
 			</div>
 		</div><!-- .row -->
@@ -117,11 +108,11 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title"><?php the_field('btn_info', 'option'); ?></h4>
+                <h4 class="modal-title"><?php the_field('modal-title'); ?></h4>
             </div>
             <div class="modal-body">
               <?php the_field('modal-info'); ?>
-			<div class="click"><a href="<?php the_field('btn_url', 'option'); ?>" class="btn btn-primary btn-lg" target="_blank" ><?php the_field('btn_text' , 'option'); ?></a></div>
+			<div class="click"><a href="<?php the_field('modal-link'); ?>" class="btn btn-primary btn-lg" target="_blank" ><?php the_field('modal-link-text'); ?></a></div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal" id="close">Close</button>

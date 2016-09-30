@@ -13,7 +13,7 @@
 							<?php bones_footer_links(); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?></p>
 
 				</div> <!-- end #inner-footer -->
 
@@ -33,16 +33,33 @@
 			$('.navbar-collapse').collapse('toggle');
 			});
 			 
-			 window.setTimeout(function(){
-            $('#myModal').modal('show');
-        }, 8000)
 
-			 if (jQuery.cookie('shown_modal')==undefined) {
-           jQuery.cookie('shown_modal', 'true');
-           jQuery('#myModal').modal();
-        }
+			// Show modal if they are a first time visitor
+			if (document.cookie.indexOf("viewed_modal") >= 0) {
 
-			 });
+			} else {
+
+				window.setTimeout(function(){
+          $('#myModal').modal('show');
+      	}, 8000);
+
+			}
+
+
+			// This is the code that sets a cookie once a user closes the modal
+			$('#myModal').on('hidden.bs.modal', function (e) {
+
+				// Set cookie to prevent modal from popping up within 30 days
+				
+				document.cookie="viewed_modal=true; domain=<?php $domain_name =  preg_replace('/^www\./','',$_SERVER['SERVER_NAME']); echo $domain_name; ?>; max-age=64800; path=/;"
+
+				console.log('<?php $domain_name =  preg_replace('/^www\./','',$_SERVER['SERVER_NAME']); echo $domain_name; ?>');
+
+			});
+
+			
+
+		});
 
 
 				

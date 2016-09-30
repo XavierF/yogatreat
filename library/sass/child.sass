@@ -67,6 +67,7 @@ a
 					background: rgba(0, 0, 0, .1)
 					&:hover
 						background: rgba(0, 0, 0, .2)
+
 			.navbar-inverse 
 				.dropdown
 					&:hover
@@ -99,11 +100,13 @@ a
 				background: rgba(0, 0, 0, .1)
 
 
-
-
+//			&:first-child
+//				a
+//					padding: 20px 8px 
 //			&:last-child
 //				a
-//					padding: 20px 0 20px 15px
+//					padding: 20px 8px 
+			
 
 .navbar-inverse
 	background: $purple
@@ -237,6 +240,7 @@ h3.tag
 	.header
 		padding: 0 10px
 		border-radius: 5px
+		background-color: $lilac !important
 
 // MODAL
 .modal-content
@@ -249,6 +253,11 @@ h3.tag
 	text-align: center
 	.click
 		text-align: center
+		.btn-primary
+			background: $purple
+			width: 100%
+			margin-top: 20px
+			border-color: darken($purple, 10%)
 
 //HOME PAGE THUMBS
 .col-md-4
@@ -273,6 +282,12 @@ h3.tag
 	width: 100%
 	padding: 10px
 
+.modal-body
+	img
+		display: block
+		height: auto
+		max-width: 100%
+
 //PAGE CONTENT
 
 h1.page-title, h1.archive-title, h1.single-title
@@ -288,6 +303,8 @@ h1.page-title, h1.archive-title, h1.single-title
 	img
 		margin: 0px 10px 10px 0
 		float: left
+		max-width: 100%
+		height: auto
 	h2
 		font-family: 'Niconne'
 		font-size: 32px
@@ -326,6 +343,7 @@ h1.page-title, h1.archive-title, h1.single-title
 
 
 
+
 .archive-title, .entry-title, .page-title
 	color: $purple
 	margin-top: 0
@@ -355,16 +373,26 @@ h4.posts-title
 	ul
 		margin-left: -40px
 
-#xsss-buttons-after
-	margin: 10px 0
+.ifrm-outer 
+	max-width: 640px 
+	margin-left: 0
+	margin-bottom: 10px
 
-.xsss-fb, .xsss-t, .xsss-g
-	margin: 0 5px
-.xsss-fb
-	a
-		background: #3A5A9B
+.ifrm-inner 
+	float: none
+	clear: both
+	width: 100%
+	position: relative
+	padding-bottom: 50%
+	padding-top: 25px
+	height: 0
 
-
+.ifrm-inner iframe 
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
 
 // SIDEBAR
 
@@ -374,7 +402,7 @@ h4.posts-title
 	padding-left: 0
 	padding-right: 0
 	.widget
-		font-family: 'Ruluko'
+		font-family: 'Ruluko'2
 		.widgettitle
 			font-family: 'Niconne'
 			font-size: 28px
@@ -417,7 +445,7 @@ h4.posts-title
 .source-org
 	display: block
 	text-align: center
-	color: $lightGrey
+	color: white
 	margin: 10px 0 0 0
 	a
 		color: $lightGrey
@@ -436,16 +464,18 @@ h4.posts-title
 .footer-nav
 	li
 		a
-			padding-left: 15px
-			color: $lightGrey
+			padding: 0 8px 5px
+			color: white
 			-webkit-font-smoothing: antialiased
+			font-size: 1.1em
+			font-weight: normal
 			&:hover
 				text-decoration: none
 				color: $lightGrey
 
 // SOCIAL
 .social
-	margin-left: -90px
+	padding-left: 0
 	margin-top: 20px
 
 .social
@@ -552,6 +582,15 @@ h4.posts-title
 	.diablo
 		margin-bottom: 15px
 
+	.footer-nav
+		text-align: center
+		li
+			a
+				padding: 5px 0
+				text-align: center
+				display: block
+
+
 @media screen and (min-width: 567px) and (max-width: 991px)
 	.diablo
 		margin-bottom: 15px
@@ -619,5 +658,8 @@ h4.posts-title
 		display: inline-block
 
 @media screen and (min-width: 1200px)
-	.container
-		width: 970px
+	.navbar
+		.container
+			width: 970px
+			margin: 0 auto !important
+			float: none
