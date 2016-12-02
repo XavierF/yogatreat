@@ -30,11 +30,6 @@
 
 			<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-			<!-- FONTS -->
-			<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
-			<link href='http://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
-			<link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
-
 			<!-- wordpress head functions -->
 			<?php wp_head(); ?>
 			<!-- end of wordpress head -->
@@ -51,7 +46,7 @@
 
 </script>
 			<!-- end analytics -->
-			<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/child.css">
+			
 		</head>
 
 		<body <?php body_class(); ?>>
@@ -70,11 +65,17 @@
 									</button>
 
 									<a class="navbar-brand" href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="homepage"><?php bloginfo( 'name' ) ?></a>
-
+									
 								</div><!-- end .navbar-header -->
 
 								<div class="navbar-collapse collapse navbar-responsive-collapse">
 									<?php bones_main_nav(); ?>
+									<ul class="social-header pull-right">
+										<li><a href="https://www.facebook.com/pages/Yoga-Treat/1480466952175295" title="Connect with us on Facebook" target="_blank"><i class="icon fb-hdr"></i></a></li>
+										<li><a href="http://instagram.com/yogatreat?" title="Follow us on Instagram" target="_blank"><i class="icon insta-hdr"></i></a></li>
+										<li><a href="https://www.yelp.com/biz/yoga-treat-concord" title="Check us out on Yelp" target="_blank"><i class="icon yelp-hdr"></i></a></li>
+										<li><a href="https://plus.google.com/107385120716375380648" title="Add to Circles" target="_blank"><i class="icon google-hdr"></i></a></li>
+									</ul>
 								</div><!-- end .navbar-collapse -->
 										
 							</div><!-- end .container -->

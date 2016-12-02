@@ -4,9 +4,10 @@
 
 				<div id="inner-footer" class="wrap clearfix">
 	<ul class="social">
-		<li><a href="https://www.facebook.com/pages/Yoga-Treat/1480466952175295" target="_blank"><i class="icon facebook"></i></a></li>
-		<li><a href="http://instagram.com/yogatreat?" target="_blank"><i class="icon instagram"></i></a></li>
-		<li><a href="http://twitter.com" target="_blank"><i class="icon twitter"></i></a></li>
+		<li><a href="https://www.facebook.com/pages/Yoga-Treat/1480466952175295" title="Connect with us on Facebook" target="_blank"><i class="icon facebook"></i></a></li>
+		<li><a href="http://instagram.com/yogatreat?" title="Follow us on Instagram" target="_blank"><i class="icon instagram"></i></a></li>
+		<li><a href="https://www.yelp.com/biz/yoga-treat-concord" title="Check us out on Yelp" target="_blank"><i class="icon yelp"></i></a></li>
+		<li><a href="https://plus.google.com/107385120716375380648" title="Add to Circles" target="_blank"><i class="icon google"></i></a></li>
 	</ul>
 
 					<nav role="navigation">

@@ -30,8 +30,21 @@
 	</div>
 </section>
 
+<section id="video">
+	<div class="container video">
+		<div class="ifrm-outer">
+		<div class="ifrm-inner">
+		<iframe src="https://fast.wistia.net/embed/iframe/40sapf523u?controlsVisibleOnLoad=true&playerColor=333333&plugin%5Bsocialbar-v1%5D%5BbadgeImage%5D=http%3A%2F%2Fembed.wistia.com%2Fdeliveries%2F3574f7f1910ee97739ad806a18fc577d0475301f.jpg%3Fimage_resize%3D100&plugin%5Bsocialbar-v1%5D%5BbadgeUrl%5D=http%3A%2F%2Fdatasphere.com%3Futm_source%3Dembedvideo%3Futm_source%3Dembedvideo&plugin%5Bsocialbar-v1%5D%5Bbuttons%5D=facebook-twitter&plugin%5Bsocialbar-v1%5D%5Blogo%5D=true&plugin%5Bsocialbar-v1%5D%5BpageUrl%5D=https%3A%2F%2Fmy.datasphere.com%2Fnode%2F7623904%3Futm_source%3Dembedvideo&version=v1&videoHeight=360&videoWidth=640&volumeControl=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="1000" height="auto"></iframe>
+		</div>
+		</div>
+		<a href="https://itunes.apple.com/us/app/yoga-treat/id1144108657?mt=8" class="btn btn-primary btn-lg" title="Check out our latest schedule in real-time and sign up for classes on the go" target="_blank">Get the Yoga Treat app!</a>
+	</div><!-- .container -->
+	
+</section>
+
 <section id="classes">
 	<div class="container">
+		
 <!-- <a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sView=week&sDate=5/10/2014" class="btn btn-primary btn-lg" target="_blank" >View available classes</a> -->
 		<div class="row">
 
