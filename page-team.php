@@ -76,7 +76,7 @@ Template Name: Team Page
 					 			<?php endwhile;?>
 						</div><!-- .row -->
 							 	<?php endif; ?>
-				</div> <!-- end gallery End Masonry Layout-->
+				</div> <!-- end gallery End Team Layout-->
 		</section>
 
 						</div> <!-- end #main -->

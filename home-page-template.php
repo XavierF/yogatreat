@@ -8,7 +8,7 @@
 ?>
 <?php get_header(); ?>
 
-<section id="hero" role="promo">
+<section id="hero" role="site-information">
 	<!--<p>
 		<a href="http://clients.mindbodyonline.com/ws.asp?studioid=150291&stype=-7&sTG=22&sVT=6&sView=week&sDate=6/2/2014" class="btn btn-primary btn-lg" target="_blank" >View class schedule &raquo;</a>
 	</p> -->
@@ -24,10 +24,34 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="tag"><?php $site_description = get_bloginfo( 'description', 'display' ); echo "$site_description";?></h1>
-				<h2>Choose from a multitude of classes that guarantee a total mind, body and soul transformation. <br class="visible-lg"/>Our classes will leave you feeling toned, energized and empowered.</h2>
-			</div>
-		</div>
-	</div>
+
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+						<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+							<section class="entry-content clearfix" itemprop="articleBody">
+								<?php the_content(); ?>
+							</section> <!-- end article section -->
+						</article> <!-- end article -->
+
+							<?php endwhile; else : ?>
+
+									<article id="post-not-found" class="hentry clearfix">
+										<header class="article-header">
+											<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
+										</header>
+										<section class="entry-content">
+											<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+										</section>
+										<footer class="article-footer">
+												<p><?php _e( 'This is the error message in the home-page.php template.', 'bonestheme' ); ?></p>
+										</footer>
+									</article>
+
+							<?php endif; ?>
+
+			</div><!-- .col-sm-12 -->
+		</div><!-- .row -->
+	</div><!-- .container -->
 </section>
 
 <section id="video">
