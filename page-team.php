@@ -65,7 +65,7 @@ Template Name: Team Page
 											    $link = get_sub_field('page-link'); 
 									    	?>
 
-									    	<div class="col-md-5 col-sm-4 team-thumb">
+									    	<div class="col-md-5 col-sm-5 team-thumb">
 						
 								<div class="team-img" style="background: url('<?php echo $image; ?>') center top no-repeat; background-size: cover;"></div>
 								<a href="<?php echo $link; ?>" class="btn btn-primary btn-lg"><?php echo $title; ?></a>

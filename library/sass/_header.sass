@@ -1,0 +1,168 @@
+
+.navbar
+	.container
+		position: relative 
+	.navbar-toggle
+		border: none
+		margin-top: 11px
+		border-radius: 2px
+		&:hover, &:active
+			background: rgba(0, 0, 0, .1)
+			outline: none
+		&:focus
+			outline: none
+			background: transparent
+		.icon-bar
+			height: 3px
+			border-radius: 0
+	.navbar-brand
+		width: 190px
+		height: 60px
+		background: url('../images/logo-2x.png') center 14px no-repeat
+		background-size: 170px 36px
+		text-indent: -9999px
+		&:hover
+			background-color: rgba(0, 0, 0, .1)
+	.navbar-nav
+		float: left
+	.navbar-nav
+		li
+			a
+				color: rgba(255, 255, 255, .78)
+				-webkit-font-smoothing: antialiased
+				padding: 20px 15px
+				font-size: 16px
+				font-weight: 300
+				&:hover, &:focus
+					background: rgba(0, 0, 0, .1)
+			&.active
+				a
+					background: rgba(0, 0, 0, .1)
+					&:hover
+						background: rgba(0, 0, 0, .2)
+
+			.navbar-inverse 
+				.dropdown
+					&:hover
+						.dropdown-menu
+							display: block !important
+					a
+						.caret
+							border-top-color: white !important
+							border-bottom-color: white !important
+
+		.active
+			a
+				background: rgba(255, 255, 255, .78)
+				&:hover
+					background: rgba(0, 0, 0, .1)
+				&:focus
+					background: rgba(0, 0, 0, .1)
+
+		.open
+			a
+				display: block
+				background: $purple !important
+				&:hover
+					background: rgba(0, 0, 0, .1)
+	.dropdown-menu
+		background: $purple
+		padding: 0
+		a
+			&:hover
+				background: rgba(0, 0, 0, .1)
+
+.social-header
+	display: inline-block
+	padding-left: 0
+	float: right
+	margin-top: 15px
+	vertical-align: baseline
+	li
+		list-style-type: none
+		display: inline
+		width: 25px
+		height: 28px
+		a
+			display: inline-block
+			padding: 0
+			margin: 0 8px 
+			width: 25px
+			height: 25px
+			&:first-child
+				margin-left: 0
+
+	.icon
+		display: inline-block
+		width: 25px
+		height: 25px
+		vertical-align: baseline
+
+.fb-hdr
+	width: 25px
+	height: 25px
+	background: url('../images/fb-hdr.png') center center no-repeat
+	background-size: cover
+	float: left
+
+.insta-hdr
+	width: 25px
+	height: 25px
+	background: url('../images/insta-hdr.png') center center no-repeat
+	background-size: cover
+
+.yelp-hdr
+	width: 25px
+	height: 25px
+	background: url('../images/yelp-hdr.png') center center no-repeat
+	background-size: cover
+
+.google-hdr
+	width: 25px
+	height: 25px
+	background: url('../images/google-hdr.png') center center no-repeat
+	background-size: cover
+
+
+
+//			&:first-child
+//				a
+//					padding: 20px 8px 
+//			&:last-child
+//				a
+//					padding: 20px 8px 
+			
+
+.navbar-inverse
+	background: $purple
+	border-bottom: 1px solid rgba(0, 0, 0, .2)
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, .25)
+.content
+	padding: 10px 0 10px 0
+
+.banner
+	position: absolute
+	top: 61px
+	left: 50%
+	margin-left: -131px
+	background: #EFEFEF
+	height: auto
+	width: auto
+	padding: 5px 10px 0px 15px
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, .1)
+	font-size: 16px
+	font-weight: 500
+	border: 1px solid #dadada
+	border-top: none
+	border-bottom-left-radius: 4px
+	border-bottom-right-radius: 4px
+	p
+		display: inline-block
+		margin: 0 10px 10px 0
+		line-height: 2em
+	.btn-primary
+		display: inline-block
+		background: #4ba7e1
+		color: $white
+		font-weight: 500
+		padding: 4px 12px

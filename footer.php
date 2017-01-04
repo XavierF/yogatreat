@@ -65,6 +65,7 @@
 
 				
 		jQuery('li.trigger-contact a').attr('id', 'contact-us');
+		jQuery('li.trigger-contact-ftr a').attr('id', 'contact-us-2');
 			
 		</script>
 		<script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
