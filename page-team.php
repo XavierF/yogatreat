@@ -31,7 +31,6 @@ Template Name: Team Page
 
 								<footer class="article-footer">
 									<p class="clearfix"><?php the_tags( '<span class="tags">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ' ', '' ); ?></p>
-
 								</footer> <!-- end article footer -->
 
 								<?php comments_template(); ?>
@@ -46,7 +45,7 @@ Template Name: Team Page
 										</header>
 											<section class="entry-content">
 												<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-										</section>
+											</section>
 										<footer class="article-footer">
 												<p><?php _e( 'This is the error message in the page-custom.php template.', 'bonestheme' ); ?></p>
 										</footer>
@@ -57,27 +56,25 @@ Template Name: Team Page
 								<div class="team clearfix">
 											<?php if( have_rows('team') ): ?>
 									<div class="row">
-											 <?php 	// loop through the rows of data
-											    while( have_rows('team') ) : the_row();
-											    //vars
-											    $image = get_sub_field('image'); 
-											    $title = get_sub_field('title'); 
-											    $link = get_sub_field('page-link'); 
-									    	?>
+										 	<?php 	// loop through the rows of data
+										    while( have_rows('team') ) : the_row();
+										    //vars
+										    $image = get_sub_field('image'); 
+										    $title = get_sub_field('title'); 
+										    $link = get_sub_field('page-link'); 
+								    	?>
 
-									    	<div class="col-md-5 col-sm-5 team-thumb">
+							    	<div class="col-md-4 col-sm-4 col-xs-6 team-thumb">
 						
-								<div class="team-img" style="background: url('<?php echo $image; ?>') center top no-repeat; background-size: cover;"></div>
-								<a href="<?php echo $link; ?>" class="btn btn-primary btn-lg"><?php echo $title; ?></a>
+											<div class="team-img" style="background: url('<?php echo $image; ?>') center top no-repeat; background-size: cover;"></div>
+											<a href="<?php echo $link; ?>" class="btn btn-primary btn-lg"><?php echo $title; ?></a>
 							
-      						</div><!-- end .col-md-5 col-sm-6-->
-
+      							</div><!-- end .col-md-5 col-sm-6-->
 									
-					 			<?php endwhile;?>
-						</div><!-- .row -->
-							 	<?php endif; ?>
-				</div> <!-- end gallery End Team Layout-->
-		</section>
+					 						<?php endwhile;?>
+									</div><!-- .row -->
+							 				<?php endif; ?>
+								</div> <!-- end End Team Layout-->
 
 						</div> <!-- end #main -->
 

@@ -85,44 +85,44 @@
 				<a href="http://www.diablomag.com/January-2016/The-Best-Fitness-Classes-for-2016/" target="_blank"><img class="img-responsive diablo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/library/images/diablo-cover.png" /></a>
 			</div>
 		</div><!-- .row -->
-		<div class="row content">
+		<div class="row content"><!-- begin classed -->
 			
-			<div class="col-md-4 col-sm-6">
+			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="<?php the_field('class_1_url'); ?>" class="class-container">
 					<div class="class-thumb" style="background: url('<?php the_field('class_1_img');?>') center center no-repeat; background-size: cover;"></div>
 					<p class="class-text"><?php the_field('class_1_title'); ?></p>
 				</a> 
 			</div><!-- end .col-md-4 -->
 
-			<div class="col-md-4 col-sm-6">
+			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="<?php the_field('class_2_url'); ?>" class="class-container">
 					<div class="class-thumb" style="background: url('<?php the_field('class_2_img');?>') center center no-repeat; background-size: cover;"></div>
 					<p class="class-text"><?php the_field('class_2_title'); ?></p>
 				</a> 
 			</div><!-- end .col-md-4 -->
 			
-			<div class="col-md-4 col-sm-6">	
+			<div class="col-md-4 col-sm-4 col-xs-6">	
 				<a href="<?php the_field('class_3_url'); ?>" class="class-container">
 					<div class="class-thumb" style="background: url('<?php the_field('class_3_img');?>') center center no-repeat; background-size: cover;"></div>
 					<p class="class-text"><?php the_field('class_3_title'); ?></p>
 				</a> 
 			</div><!-- end .col-md-4 -->
 	
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4 col-sm-4 col-xs-6">
      		<a href="<?php the_field('class_4_url'); ?>" class="class-container">
      			<div class="class-thumb" style="background: url('<?php the_field('class_4_img');?>') center center no-repeat; background-size: cover;"></div>
       		<p class="class-text"><?php the_field('class_4_title'); ?></p>
       	</a> 
       </div>
 
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4 col-sm-4 col-xs-6">
       	<a href="<?php the_field('class_5_url'); ?>" class="class-container">
       		<div class="class-thumb" style="background: url('<?php the_field('class_5_img');?>') center center no-repeat; background-size: cover;"></div>
       		<p class="class-text"><?php the_field('class_5_title'); ?></p>
       	</a>  
       </div><!-- end .col-md-4 -->
 
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="<?php the_field('class_6_url'); ?>" class="class-container">
 					<div class="class-thumb" style="background: url('<?php the_field('class_6_img');?>') center center no-repeat; background-size: cover;"></div>
 					<p class="class-text"><?php the_field('class_6_title'); ?></p>
